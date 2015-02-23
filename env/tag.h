@@ -6,17 +6,17 @@
 #define TAG_WIDTH 4
 
 inline int load_tag(void *addr) {
-  int rv;
-  asm volatile ("ld %1, 0(%0)"
-                :"=r"(addr)
-                :"r"(rv)
+  int rv = 32;
+  asm volatile ("ltag %0, 0(%1)"
+                :"=r"(rv)
+                :"r"(addr)
                 );
   return rv;
 }
 
 
 inline void store_tag(void *addr, int tag) {
-  asm volatile ("sd %0, 0(%1)"
+  asm volatile ("stag %0, 0(%1)"
                 :
                 :"r"(tag), "r"(addr)
                 );
