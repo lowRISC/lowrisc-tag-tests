@@ -42,5 +42,9 @@ main() {
     return 0;
     }
   }
+
+  for(i=0; i<VECT_SIZE; i++) {
+    free(a[i]);
+  }
   printf("Parity check passed.\n");
 }
