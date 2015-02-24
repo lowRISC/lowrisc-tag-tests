@@ -24,4 +24,5 @@ main() {
     return 0;
     }
   }
+  printf("Tag load and store tests passed.\n");
 }

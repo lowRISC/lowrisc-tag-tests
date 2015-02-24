@@ -3,8 +3,9 @@
 #include "env/tag.h"
 #include <stdio.h>
 #include <stdlib.h>
+//#include <time.h>
 
-#define VECT_SIZE 1<<9
+#define VECT_SIZE 1<<10
 
 int parity_gen(long data, int pwidth) {
   int i, rv=0;
@@ -18,11 +19,18 @@ int parity_gen(long data, int pwidth) {
 main() {
 
   long *a[VECT_SIZE], i;
-  
+  //int seed = time(NULL);    // time() does not work, always return 0
+  int seed = 41521;
+
+  printf("randomize using seed:%d\n", seed);
+  srand(seed);            // reset random seed
+
   for(i=0; i<VECT_SIZE; i++) {
+    int tag;
     *(a+i) = (long *)malloc(sizeof(long));
     *(a[i]) = rand();
-    store_tag(a[i], parity_gen(*(a[i]), TAG_WIDTH));
+    tag = parity_gen(*(a[i]), TAG_WIDTH);
+    store_tag(a[i], tag);
   }
   
   for(i=0; i<VECT_SIZE; i++) {
@@ -34,4 +42,5 @@ main() {
     return 0;
     }
   }
+  printf("Parity check passed.\n");
 }
