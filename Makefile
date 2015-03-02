@@ -19,6 +19,7 @@ RISCV_GCC_OPTS = -I.
 tag_tests = \
 	tag_ld_st \
 	parity \
+	memory_sweep \
 
 #--------------------------------------------------------------------
 # Build
