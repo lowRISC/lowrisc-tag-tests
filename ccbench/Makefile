@@ -1,5 +1,5 @@
 #=======================================================================
-# Makefile for LowRISC tag tests
+# Makefile for ccbench tests
 #-----------------------------------------------------------------------
 
 default: all
@@ -12,34 +12,34 @@ RISCV_PREFIX=riscv64-unknown-elf-
 RISCV_GCC = $(RISCV_PREFIX)gcc
 RISCV_LINUX_PREFIX=riscv64-unknown-linux-gnu-
 RISCV_LINUX_GCC = $(RISCV_LINUX_PREFIX)gcc
-RISCV_GCC_OPTS = -I. -O3
-RISCV_LINUX_GCC_OPTS = -I. -O3 -static
+
+RISCV_GCC_OPTS = -I. -std=gnu99 -O2 -ffast-math -funroll-loops
+RISCV_LINK_OPTS = -lm -lc
+RISCV_LINUX_GCC_OPTS = -I.. -O3 -static
 
 #--------------------------------------------------------------------
 # Build targets
 #--------------------------------------------------------------------
+common_files = cctimer barrier cclfsr
+common_objs = $(addsuffix .o, $(common_files))
 
-tag_tests = \
-	tag_ld_st \
-	parity \
-	memory_sweep \
+ccbench_tests = caches band_req mem_interleaving strided
 
-tag_tests_linux = $(addsuffix .linux, $(tag_tests))
+ccbench_tests_linux = $(addsuffix .linux, $(ccbench_tests))
 
 #--------------------------------------------------------------------
 # Build
 #--------------------------------------------------------------------
 
-$(tag_tests): %:tests/%.cc env/tag.h
-	$(RISCV_GCC) $(RISCV_GCC_OPTS) $< -o $@
+$(ccbench_tests): %:%.o $(common_objs)
+	$(RISCV_GCC) $(RISCV_GCC_OPTS) $^ $(RISCV_LINK_OPTS) -o $@
 
-$(tag_tests_linux): %.linux:tests/%.cc env/tag.h
-	$(RISCV_LINUX_GCC) $(RISCV_LINUX_GCC_OPTS) $< -o $@
+%.o: %.c
+	$(RISCV_GCC) -c $(RISCV_GCC_OPTS) $< -o $@
 
+all: $(ccbench_tests)
 
-all: $(tag_tests)
-
-linux: $(tag_tests_linux)
+linux: $(ccbench_tests_linux)
 
 clean:
-	rm -fr $(tag_tests) $(tag_tests_linux)
+	rm -fr $(ccbench_tests) $(ccbench_tests_linux) $(common_objs)
