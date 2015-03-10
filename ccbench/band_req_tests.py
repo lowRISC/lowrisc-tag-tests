@@ -27,7 +27,7 @@ def main():
     for appIter in NumIterations:
         for appNReq in NumRequests:
             for appSize in AppSize:
-                cmd = CMD_PREFIX + " " + testTarget + " " + str(appNReq) + " " + str(appSize) + " " + str(appIter) + " " + " >> " + reportFile + " " + CMD_SUFFIX 
+                cmd = CMD_PREFIX + " " + testTarget + " " + str(appNReq) + " " + str(appSize) + " " + str(appIter) + " " + CMD_SUFFIX 
                 print cmd
                 value = runBash(cmd)
                 if value != "": print value

@@ -28,7 +28,7 @@ def main():
     for appIter in NumIterations:
         for appSize in AppSize:
             for appStride in AppStride:
-                cmd = CMD_PREFIX + " " + testTarget + " 1 " + str(appSize) + " " + str(appStride) + " " + str(appIter) + " " + " >> " + reportFile + " " + CMD_SUFFIX 
+                cmd = CMD_PREFIX + " " + testTarget + " 1 " + str(appSize) + " " + str(appStride) + " " + str(appIter) + " " + CMD_SUFFIX 
                 print cmd
                 value = runBash(cmd)
                 if value != "": print value
