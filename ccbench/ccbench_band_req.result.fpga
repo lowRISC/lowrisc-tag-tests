@@ -1,0 +1,1836 @@
+i=0 of 1,  num_elements = 64, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+App:[band_req],NumRequests:[1],Size_Req:[4],AppSize:[64],Time:[14.0037], TimeUnits:[Time Per Request (ns)], Bandwidth:[7.14099e+07], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[600200]
+i=0 of 1,  num_elements = 64, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+App:[band_req],NumRequests:[1],Size_Req:[16],AppSize:[64],Time:[14.0037], TimeUnits:[Time Per Request (ns)], Bandwidth:[7.14099e+07], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[600200]
+i=0 of 1,  num_elements = 64, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+App:[band_req],NumRequests:[1],Size_Req:[32],AppSize:[64],Time:[14.002], TimeUnits:[Time Per Request (ns)], Bandwidth:[7.14184e+07], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[600200]
+i=0 of 1,  num_elements = 64, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+App:[band_req],NumRequests:[1],Size_Req:[64],AppSize:[64],Time:[14.002], TimeUnits:[Time Per Request (ns)], Bandwidth:[7.14184e+07], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[600200]
+i=0 of 1,  num_elements = 512, num_el_per_req= 512  Size Per Req= 2048 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+App:[band_req],NumRequests:[1],Size_Req:[512],AppSize:[512],Time:[14.002], TimeUnits:[Time Per Request (ns)], Bandwidth:[7.14184e+07], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[600200]
+i=0 of 1,  num_elements = 1024, num_el_per_req= 1024  Size Per Req= 4096 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+App:[band_req],NumRequests:[1],Size_Req:[1024],AppSize:[1024],Time:[14.002], TimeUnits:[Time Per Request (ns)], Bandwidth:[7.14184e+07], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[600200]
+i=0 of 1,  num_elements = 2048, num_el_per_req= 2048  Size Per Req= 8192 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+App:[band_req],NumRequests:[1],Size_Req:[2048],AppSize:[2048],Time:[14.002], TimeUnits:[Time Per Request (ns)], Bandwidth:[7.14184e+07], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[600200]
+i=0 of 1,  num_elements = 4224, num_el_per_req= 4224  Size Per Req= 16896 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+App:[band_req],NumRequests:[1],Size_Req:[4192],AppSize:[4224],Time:[14.0053], TimeUnits:[Time Per Request (ns)], Bandwidth:[7.14014e+07], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[600200]
+i=0 of 1,  num_elements = 5056, num_el_per_req= 5056  Size Per Req= 20224 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+App:[band_req],NumRequests:[1],Size_Req:[5000],AppSize:[5056],Time:[14.007], TimeUnits:[Time Per Request (ns)], Bandwidth:[7.13929e+07], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[600200]
+i=0 of 1,  num_elements = 6016, num_el_per_req= 6016  Size Per Req= 24064 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+App:[band_req],NumRequests:[1],Size_Req:[6000],AppSize:[6016],Time:[14.0103], TimeUnits:[Time Per Request (ns)], Bandwidth:[7.13759e+07], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[600200]
+i=0 of 1,  num_elements = 8192, num_el_per_req= 8192  Size Per Req= 32768 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+App:[band_req],NumRequests:[1],Size_Req:[8192],AppSize:[8192],Time:[14.022], TimeUnits:[Time Per Request (ns)], Bandwidth:[7.13165e+07], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[600200]
+i=0 of 1,  num_elements = 16384, num_el_per_req= 16384  Size Per Req= 65536 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+App:[band_req],NumRequests:[1],Size_Req:[16384],AppSize:[16384],Time:[44.8351], TimeUnits:[Time Per Request (ns)], Bandwidth:[2.2304e+07], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[300100]
+i=0 of 1,  num_elements = 50112, num_el_per_req= 50112  Size Per Req= 200448 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+App:[band_req],NumRequests:[1],Size_Req:[50100],AppSize:[50112],Time:[58.2872], TimeUnits:[Time Per Request (ns)], Bandwidth:[1.71564e+07], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[300100]
+i=0 of 1,  num_elements = 75136, num_el_per_req= 75136  Size Per Req= 300544 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+App:[band_req],NumRequests:[1],Size_Req:[75100],AppSize:[75136],Time:[58.2706], TimeUnits:[Time Per Request (ns)], Bandwidth:[1.71613e+07], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[300100]
+i=0 of 1,  num_elements = 100032, num_el_per_req= 100032  Size Per Req= 400128 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+App:[band_req],NumRequests:[1],Size_Req:[100000],AppSize:[100032],Time:[58.2839], TimeUnits:[Time Per Request (ns)], Bandwidth:[1.71574e+07], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[300100]
+i=0 of 1,  num_elements = 262144, num_el_per_req= 262144  Size Per Req= 1048576 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+App:[band_req],NumRequests:[1],Size_Req:[262144],AppSize:[262144],Time:[58.2872], TimeUnits:[Time Per Request (ns)], Bandwidth:[1.71564e+07], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[300100]
+i=0 of 1,  num_elements = 300160, num_el_per_req= 300160  Size Per Req= 1200640 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+App:[band_req],NumRequests:[1],Size_Req:[300100],AppSize:[300160],Time:[58.2872], TimeUnits:[Time Per Request (ns)], Bandwidth:[1.71564e+07], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[300100]
+i=0 of 2,  num_elements = 128, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+i=1 of 2,  num_elements = 128, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[64])
+
+App:[band_req],NumRequests:[2],Size_Req:[4],AppSize:[128],Time:[12.5025], TimeUnits:[Time Per Request (ns)], Bandwidth:[7.9984e+07], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[300100]
+i=0 of 2,  num_elements = 128, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+i=1 of 2,  num_elements = 128, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[64])
+
+App:[band_req],NumRequests:[2],Size_Req:[16],AppSize:[128],Time:[12.5025], TimeUnits:[Time Per Request (ns)], Bandwidth:[7.9984e+07], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[300100]
+i=0 of 2,  num_elements = 128, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+i=1 of 2,  num_elements = 128, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[64])
+
+App:[band_req],NumRequests:[2],Size_Req:[32],AppSize:[128],Time:[12.5025], TimeUnits:[Time Per Request (ns)], Bandwidth:[7.9984e+07], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[300100]
+i=0 of 2,  num_elements = 128, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+i=1 of 2,  num_elements = 128, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[64])
+
+App:[band_req],NumRequests:[2],Size_Req:[64],AppSize:[128],Time:[12.5025], TimeUnits:[Time Per Request (ns)], Bandwidth:[7.9984e+07], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[300100]
+i=0 of 2,  num_elements = 512, num_el_per_req= 256  Size Per Req= 1024 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+i=1 of 2,  num_elements = 512, num_el_per_req= 256  Size Per Req= 1024 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[256])
+
+App:[band_req],NumRequests:[2],Size_Req:[512],AppSize:[512],Time:[12.5008], TimeUnits:[Time Per Request (ns)], Bandwidth:[7.99947e+07], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[300100]
+i=0 of 2,  num_elements = 1024, num_el_per_req= 512  Size Per Req= 2048 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+i=1 of 2,  num_elements = 1024, num_el_per_req= 512  Size Per Req= 2048 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[512])
+
+App:[band_req],NumRequests:[2],Size_Req:[1024],AppSize:[1024],Time:[12.5025], TimeUnits:[Time Per Request (ns)], Bandwidth:[7.9984e+07], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[300100]
+i=0 of 2,  num_elements = 2048, num_el_per_req= 1024  Size Per Req= 4096 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+i=1 of 2,  num_elements = 2048, num_el_per_req= 1024  Size Per Req= 4096 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[1024])
+
+App:[band_req],NumRequests:[2],Size_Req:[2048],AppSize:[2048],Time:[12.5025], TimeUnits:[Time Per Request (ns)], Bandwidth:[7.9984e+07], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[300100]
+i=0 of 2,  num_elements = 4224, num_el_per_req= 2112  Size Per Req= 8448 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+i=1 of 2,  num_elements = 4224, num_el_per_req= 2112  Size Per Req= 8448 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[2112])
+
+App:[band_req],NumRequests:[2],Size_Req:[4192],AppSize:[4224],Time:[12.5042], TimeUnits:[Time Per Request (ns)], Bandwidth:[7.99734e+07], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[300100]
+i=0 of 2,  num_elements = 5120, num_el_per_req= 2560  Size Per Req= 10240 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+i=1 of 2,  num_elements = 5120, num_el_per_req= 2560  Size Per Req= 10240 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[2560])
+
+App:[band_req],NumRequests:[2],Size_Req:[5000],AppSize:[5120],Time:[12.5075], TimeUnits:[Time Per Request (ns)], Bandwidth:[7.9952e+07], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[300100]
+i=0 of 2,  num_elements = 6016, num_el_per_req= 3008  Size Per Req= 12032 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+i=1 of 2,  num_elements = 6016, num_el_per_req= 3008  Size Per Req= 12032 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[3008])
+
+App:[band_req],NumRequests:[2],Size_Req:[6000],AppSize:[6016],Time:[12.5092], TimeUnits:[Time Per Request (ns)], Bandwidth:[7.99414e+07], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[300100]
+i=0 of 2,  num_elements = 8192, num_el_per_req= 4096  Size Per Req= 16384 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+i=1 of 2,  num_elements = 8192, num_el_per_req= 4096  Size Per Req= 16384 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[4096])
+
+App:[band_req],NumRequests:[2],Size_Req:[8192],AppSize:[8192],Time:[12.5208], TimeUnits:[Time Per Request (ns)], Bandwidth:[7.98669e+07], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[300100]
+i=0 of 2,  num_elements = 16384, num_el_per_req= 8192  Size Per Req= 32768 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+i=1 of 2,  num_elements = 16384, num_el_per_req= 8192  Size Per Req= 32768 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[8192])
+
+App:[band_req],NumRequests:[2],Size_Req:[16384],AppSize:[16384],Time:[44.6468], TimeUnits:[Time Per Request (ns)], Bandwidth:[2.2398e+07], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[300100]
+i=0 of 2,  num_elements = 50176, num_el_per_req= 25088  Size Per Req= 100352 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+i=1 of 2,  num_elements = 50176, num_el_per_req= 25088  Size Per Req= 100352 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[25088])
+
+App:[band_req],NumRequests:[2],Size_Req:[50100],AppSize:[50176],Time:[58.2872], TimeUnits:[Time Per Request (ns)], Bandwidth:[1.71564e+07], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[300100]
+i=0 of 2,  num_elements = 75136, num_el_per_req= 37568  Size Per Req= 150272 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+i=1 of 2,  num_elements = 75136, num_el_per_req= 37568  Size Per Req= 150272 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[37568])
+
+App:[band_req],NumRequests:[2],Size_Req:[75100],AppSize:[75136],Time:[58.0323], TimeUnits:[Time Per Request (ns)], Bandwidth:[1.72318e+07], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[300100]
+i=0 of 2,  num_elements = 100096, num_el_per_req= 50048  Size Per Req= 200192 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+i=1 of 2,  num_elements = 100096, num_el_per_req= 50048  Size Per Req= 200192 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[50048])
+
+App:[band_req],NumRequests:[2],Size_Req:[100000],AppSize:[100096],Time:[57.9523], TimeUnits:[Time Per Request (ns)], Bandwidth:[1.72556e+07], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[300100]
+i=0 of 2,  num_elements = 262144, num_el_per_req= 131072  Size Per Req= 524288 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+i=1 of 2,  num_elements = 262144, num_el_per_req= 131072  Size Per Req= 524288 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[131072])
+
+App:[band_req],NumRequests:[2],Size_Req:[262144],AppSize:[262144],Time:[80.0883], TimeUnits:[Time Per Request (ns)], Bandwidth:[1.24862e+07], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[300100]
+i=0 of 2,  num_elements = 300160, num_el_per_req= 150080  Size Per Req= 600320 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+i=1 of 2,  num_elements = 300160, num_el_per_req= 150080  Size Per Req= 600320 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[150080])
+
+App:[band_req],NumRequests:[2],Size_Req:[300100],AppSize:[300160],Time:[58.119], TimeUnits:[Time Per Request (ns)], Bandwidth:[1.72061e+07], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[300100]
+i=0 of 4,  num_elements = 256, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+i=1 of 4,  num_elements = 256, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[64])
+
+i=2 of 4,  num_elements = 256, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[128])
+
+i=3 of 4,  num_elements = 256, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[192])
+
+App:[band_req],NumRequests:[4],Size_Req:[4],AppSize:[256],Time:[10.7506], TimeUnits:[Time Per Request (ns)], Bandwidth:[9.30182e+07], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[300100]
+i=0 of 4,  num_elements = 256, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+i=1 of 4,  num_elements = 256, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[64])
+
+i=2 of 4,  num_elements = 256, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[128])
+
+i=3 of 4,  num_elements = 256, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[192])
+
+App:[band_req],NumRequests:[4],Size_Req:[16],AppSize:[256],Time:[10.7514], TimeUnits:[Time Per Request (ns)], Bandwidth:[9.3011e+07], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[300100]
+i=0 of 4,  num_elements = 256, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+i=1 of 4,  num_elements = 256, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[64])
+
+i=2 of 4,  num_elements = 256, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[128])
+
+i=3 of 4,  num_elements = 256, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[192])
+
+App:[band_req],NumRequests:[4],Size_Req:[32],AppSize:[256],Time:[10.7506], TimeUnits:[Time Per Request (ns)], Bandwidth:[9.30182e+07], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[300100]
+i=0 of 4,  num_elements = 256, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+i=1 of 4,  num_elements = 256, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[64])
+
+i=2 of 4,  num_elements = 256, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[128])
+
+i=3 of 4,  num_elements = 256, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[192])
+
+App:[band_req],NumRequests:[4],Size_Req:[64],AppSize:[256],Time:[10.7506], TimeUnits:[Time Per Request (ns)], Bandwidth:[9.30182e+07], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[300100]
+i=0 of 4,  num_elements = 512, num_el_per_req= 128  Size Per Req= 512 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+i=1 of 4,  num_elements = 512, num_el_per_req= 128  Size Per Req= 512 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[128])
+
+i=2 of 4,  num_elements = 512, num_el_per_req= 128  Size Per Req= 512 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[256])
+
+i=3 of 4,  num_elements = 512, num_el_per_req= 128  Size Per Req= 512 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[384])
+
+App:[band_req],NumRequests:[4],Size_Req:[512],AppSize:[512],Time:[10.7514], TimeUnits:[Time Per Request (ns)], Bandwidth:[9.3011e+07], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[300100]
+i=0 of 4,  num_elements = 1024, num_el_per_req= 256  Size Per Req= 1024 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+i=1 of 4,  num_elements = 1024, num_el_per_req= 256  Size Per Req= 1024 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[256])
+
+i=2 of 4,  num_elements = 1024, num_el_per_req= 256  Size Per Req= 1024 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[512])
+
+i=3 of 4,  num_elements = 1024, num_el_per_req= 256  Size Per Req= 1024 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[768])
+
+App:[band_req],NumRequests:[4],Size_Req:[1024],AppSize:[1024],Time:[10.7514], TimeUnits:[Time Per Request (ns)], Bandwidth:[9.3011e+07], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[300100]
+i=0 of 4,  num_elements = 2048, num_el_per_req= 512  Size Per Req= 2048 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+i=1 of 4,  num_elements = 2048, num_el_per_req= 512  Size Per Req= 2048 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[512])
+
+i=2 of 4,  num_elements = 2048, num_el_per_req= 512  Size Per Req= 2048 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[1024])
+
+i=3 of 4,  num_elements = 2048, num_el_per_req= 512  Size Per Req= 2048 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[1536])
+
+App:[band_req],NumRequests:[4],Size_Req:[2048],AppSize:[2048],Time:[10.7514], TimeUnits:[Time Per Request (ns)], Bandwidth:[9.3011e+07], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[300100]
+i=0 of 4,  num_elements = 4352, num_el_per_req= 1088  Size Per Req= 4352 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+i=1 of 4,  num_elements = 4352, num_el_per_req= 1088  Size Per Req= 4352 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[1088])
+
+i=2 of 4,  num_elements = 4352, num_el_per_req= 1088  Size Per Req= 4352 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[2176])
+
+i=3 of 4,  num_elements = 4352, num_el_per_req= 1088  Size Per Req= 4352 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[3264])
+
+App:[band_req],NumRequests:[4],Size_Req:[4192],AppSize:[4352],Time:[10.7531], TimeUnits:[Time Per Request (ns)], Bandwidth:[9.29966e+07], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[300100]
+i=0 of 4,  num_elements = 5120, num_el_per_req= 1280  Size Per Req= 5120 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+i=1 of 4,  num_elements = 5120, num_el_per_req= 1280  Size Per Req= 5120 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[1280])
+
+i=2 of 4,  num_elements = 5120, num_el_per_req= 1280  Size Per Req= 5120 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[2560])
+
+i=3 of 4,  num_elements = 5120, num_el_per_req= 1280  Size Per Req= 5120 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[3840])
+
+App:[band_req],NumRequests:[4],Size_Req:[5000],AppSize:[5120],Time:[10.7547], TimeUnits:[Time Per Request (ns)], Bandwidth:[9.29822e+07], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[300100]
+i=0 of 4,  num_elements = 6144, num_el_per_req= 1536  Size Per Req= 6144 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+i=1 of 4,  num_elements = 6144, num_el_per_req= 1536  Size Per Req= 6144 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[1536])
+
+i=2 of 4,  num_elements = 6144, num_el_per_req= 1536  Size Per Req= 6144 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[3072])
+
+i=3 of 4,  num_elements = 6144, num_el_per_req= 1536  Size Per Req= 6144 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[4608])
+
+App:[band_req],NumRequests:[4],Size_Req:[6000],AppSize:[6144],Time:[10.7556], TimeUnits:[Time Per Request (ns)], Bandwidth:[9.2975e+07], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[300100]
+i=0 of 4,  num_elements = 8192, num_el_per_req= 2048  Size Per Req= 8192 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+i=1 of 4,  num_elements = 8192, num_el_per_req= 2048  Size Per Req= 8192 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[2048])
+
+i=2 of 4,  num_elements = 8192, num_el_per_req= 2048  Size Per Req= 8192 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[4096])
+
+i=3 of 4,  num_elements = 8192, num_el_per_req= 2048  Size Per Req= 8192 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[6144])
+
+App:[band_req],NumRequests:[4],Size_Req:[8192],AppSize:[8192],Time:[10.7614], TimeUnits:[Time Per Request (ns)], Bandwidth:[9.29246e+07], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[300100]
+i=0 of 4,  num_elements = 16384, num_el_per_req= 4096  Size Per Req= 16384 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+i=1 of 4,  num_elements = 16384, num_el_per_req= 4096  Size Per Req= 16384 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[4096])
+
+i=2 of 4,  num_elements = 16384, num_el_per_req= 4096  Size Per Req= 16384 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[8192])
+
+i=3 of 4,  num_elements = 16384, num_el_per_req= 4096  Size Per Req= 16384 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[12288])
+
+App:[band_req],NumRequests:[4],Size_Req:[16384],AppSize:[16384],Time:[43.7762], TimeUnits:[Time Per Request (ns)], Bandwidth:[2.28434e+07], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[300100]
+i=0 of 4,  num_elements = 50176, num_el_per_req= 12544  Size Per Req= 50176 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+i=1 of 4,  num_elements = 50176, num_el_per_req= 12544  Size Per Req= 50176 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[12544])
+
+i=2 of 4,  num_elements = 50176, num_el_per_req= 12544  Size Per Req= 50176 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[25088])
+
+i=3 of 4,  num_elements = 50176, num_el_per_req= 12544  Size Per Req= 50176 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[37632])
+
+App:[band_req],NumRequests:[4],Size_Req:[50100],AppSize:[50176],Time:[58.6921], TimeUnits:[Time Per Request (ns)], Bandwidth:[1.70381e+07], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[300100]
+i=0 of 4,  num_elements = 75264, num_el_per_req= 18816  Size Per Req= 75264 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+i=1 of 4,  num_elements = 75264, num_el_per_req= 18816  Size Per Req= 75264 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[18816])
+
+i=2 of 4,  num_elements = 75264, num_el_per_req= 18816  Size Per Req= 75264 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[37632])
+
+i=3 of 4,  num_elements = 75264, num_el_per_req= 18816  Size Per Req= 75264 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[56448])
+
+App:[band_req],NumRequests:[4],Size_Req:[75100],AppSize:[75264],Time:[58.3747], TimeUnits:[Time Per Request (ns)], Bandwidth:[1.71307e+07], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[300100]
+i=0 of 4,  num_elements = 100096, num_el_per_req= 25024  Size Per Req= 100096 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+i=1 of 4,  num_elements = 100096, num_el_per_req= 25024  Size Per Req= 100096 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[25024])
+
+i=2 of 4,  num_elements = 100096, num_el_per_req= 25024  Size Per Req= 100096 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[50048])
+
+i=3 of 4,  num_elements = 100096, num_el_per_req= 25024  Size Per Req= 100096 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[75072])
+
+App:[band_req],NumRequests:[4],Size_Req:[100000],AppSize:[100096],Time:[59.4269], TimeUnits:[Time Per Request (ns)], Bandwidth:[1.68274e+07], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[300100]
+i=0 of 4,  num_elements = 262144, num_el_per_req= 65536  Size Per Req= 262144 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+i=1 of 4,  num_elements = 262144, num_el_per_req= 65536  Size Per Req= 262144 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[65536])
+
+i=2 of 4,  num_elements = 262144, num_el_per_req= 65536  Size Per Req= 262144 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[131072])
+
+i=3 of 4,  num_elements = 262144, num_el_per_req= 65536  Size Per Req= 262144 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[196608])
+
+App:[band_req],NumRequests:[4],Size_Req:[262144],AppSize:[262144],Time:[78.8496], TimeUnits:[Time Per Request (ns)], Bandwidth:[1.26824e+07], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[300100]
+i=0 of 4,  num_elements = 300288, num_el_per_req= 75072  Size Per Req= 300288 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+i=1 of 4,  num_elements = 300288, num_el_per_req= 75072  Size Per Req= 300288 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[75072])
+
+i=2 of 4,  num_elements = 300288, num_el_per_req= 75072  Size Per Req= 300288 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[150144])
+
+i=3 of 4,  num_elements = 300288, num_el_per_req= 75072  Size Per Req= 300288 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[225216])
+
+App:[band_req],NumRequests:[4],Size_Req:[300100],AppSize:[300288],Time:[58.5422], TimeUnits:[Time Per Request (ns)], Bandwidth:[1.70817e+07], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[300100]
+i=0 of 8,  num_elements = 512, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+i=1 of 8,  num_elements = 512, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[64])
+
+i=2 of 8,  num_elements = 512, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[128])
+
+i=3 of 8,  num_elements = 512, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[192])
+
+i=4 of 8,  num_elements = 512, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[256])
+
+i=5 of 8,  num_elements = 512, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[320])
+
+i=6 of 8,  num_elements = 512, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[384])
+
+i=7 of 8,  num_elements = 512, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[448])
+
+App:[band_req],NumRequests:[8],Size_Req:[4],AppSize:[512],Time:[9.62554], TimeUnits:[Time Per Request (ns)], Bandwidth:[1.0389e+08], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[300100]
+i=0 of 8,  num_elements = 512, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+i=1 of 8,  num_elements = 512, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[64])
+
+i=2 of 8,  num_elements = 512, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[128])
+
+i=3 of 8,  num_elements = 512, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[192])
+
+i=4 of 8,  num_elements = 512, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[256])
+
+i=5 of 8,  num_elements = 512, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[320])
+
+i=6 of 8,  num_elements = 512, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[384])
+
+i=7 of 8,  num_elements = 512, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[448])
+
+App:[band_req],NumRequests:[8],Size_Req:[16],AppSize:[512],Time:[9.62554], TimeUnits:[Time Per Request (ns)], Bandwidth:[1.0389e+08], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[300100]
+i=0 of 8,  num_elements = 512, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+i=1 of 8,  num_elements = 512, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[64])
+
+i=2 of 8,  num_elements = 512, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[128])
+
+i=3 of 8,  num_elements = 512, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[192])
+
+i=4 of 8,  num_elements = 512, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[256])
+
+i=5 of 8,  num_elements = 512, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[320])
+
+i=6 of 8,  num_elements = 512, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[384])
+
+i=7 of 8,  num_elements = 512, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[448])
+
+App:[band_req],NumRequests:[8],Size_Req:[32],AppSize:[512],Time:[9.62554], TimeUnits:[Time Per Request (ns)], Bandwidth:[1.0389e+08], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[300100]
+i=0 of 8,  num_elements = 512, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+i=1 of 8,  num_elements = 512, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[64])
+
+i=2 of 8,  num_elements = 512, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[128])
+
+i=3 of 8,  num_elements = 512, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[192])
+
+i=4 of 8,  num_elements = 512, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[256])
+
+i=5 of 8,  num_elements = 512, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[320])
+
+i=6 of 8,  num_elements = 512, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[384])
+
+i=7 of 8,  num_elements = 512, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[448])
+
+App:[band_req],NumRequests:[8],Size_Req:[64],AppSize:[512],Time:[9.62512], TimeUnits:[Time Per Request (ns)], Bandwidth:[1.03895e+08], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[300100]
+i=0 of 8,  num_elements = 512, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+i=1 of 8,  num_elements = 512, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[64])
+
+i=2 of 8,  num_elements = 512, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[128])
+
+i=3 of 8,  num_elements = 512, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[192])
+
+i=4 of 8,  num_elements = 512, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[256])
+
+i=5 of 8,  num_elements = 512, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[320])
+
+i=6 of 8,  num_elements = 512, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[384])
+
+i=7 of 8,  num_elements = 512, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[448])
+
+App:[band_req],NumRequests:[8],Size_Req:[512],AppSize:[512],Time:[9.62554], TimeUnits:[Time Per Request (ns)], Bandwidth:[1.0389e+08], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[300100]
+i=0 of 8,  num_elements = 1024, num_el_per_req= 128  Size Per Req= 512 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+i=1 of 8,  num_elements = 1024, num_el_per_req= 128  Size Per Req= 512 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[128])
+
+i=2 of 8,  num_elements = 1024, num_el_per_req= 128  Size Per Req= 512 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[256])
+
+i=3 of 8,  num_elements = 1024, num_el_per_req= 128  Size Per Req= 512 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[384])
+
+i=4 of 8,  num_elements = 1024, num_el_per_req= 128  Size Per Req= 512 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[512])
+
+i=5 of 8,  num_elements = 1024, num_el_per_req= 128  Size Per Req= 512 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[640])
+
+i=6 of 8,  num_elements = 1024, num_el_per_req= 128  Size Per Req= 512 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[768])
+
+i=7 of 8,  num_elements = 1024, num_el_per_req= 128  Size Per Req= 512 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[896])
+
+App:[band_req],NumRequests:[8],Size_Req:[1024],AppSize:[1024],Time:[9.62596], TimeUnits:[Time Per Request (ns)], Bandwidth:[1.03886e+08], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[300100]
+i=0 of 8,  num_elements = 2048, num_el_per_req= 256  Size Per Req= 1024 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+i=1 of 8,  num_elements = 2048, num_el_per_req= 256  Size Per Req= 1024 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[256])
+
+i=2 of 8,  num_elements = 2048, num_el_per_req= 256  Size Per Req= 1024 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[512])
+
+i=3 of 8,  num_elements = 2048, num_el_per_req= 256  Size Per Req= 1024 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[768])
+
+i=4 of 8,  num_elements = 2048, num_el_per_req= 256  Size Per Req= 1024 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[1024])
+
+i=5 of 8,  num_elements = 2048, num_el_per_req= 256  Size Per Req= 1024 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[1280])
+
+i=6 of 8,  num_elements = 2048, num_el_per_req= 256  Size Per Req= 1024 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[1536])
+
+i=7 of 8,  num_elements = 2048, num_el_per_req= 256  Size Per Req= 1024 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[1792])
+
+App:[band_req],NumRequests:[8],Size_Req:[2048],AppSize:[2048],Time:[9.62596], TimeUnits:[Time Per Request (ns)], Bandwidth:[1.03886e+08], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[300100]
+i=0 of 8,  num_elements = 4608, num_el_per_req= 576  Size Per Req= 2304 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+i=1 of 8,  num_elements = 4608, num_el_per_req= 576  Size Per Req= 2304 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[576])
+
+i=2 of 8,  num_elements = 4608, num_el_per_req= 576  Size Per Req= 2304 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[1152])
+
+i=3 of 8,  num_elements = 4608, num_el_per_req= 576  Size Per Req= 2304 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[1728])
+
+i=4 of 8,  num_elements = 4608, num_el_per_req= 576  Size Per Req= 2304 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[2304])
+
+i=5 of 8,  num_elements = 4608, num_el_per_req= 576  Size Per Req= 2304 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[2880])
+
+i=6 of 8,  num_elements = 4608, num_el_per_req= 576  Size Per Req= 2304 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[3456])
+
+i=7 of 8,  num_elements = 4608, num_el_per_req= 576  Size Per Req= 2304 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[4032])
+
+App:[band_req],NumRequests:[8],Size_Req:[4192],AppSize:[4608],Time:[9.62679], TimeUnits:[Time Per Request (ns)], Bandwidth:[1.03877e+08], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[300100]
+i=0 of 8,  num_elements = 5120, num_el_per_req= 640  Size Per Req= 2560 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+i=1 of 8,  num_elements = 5120, num_el_per_req= 640  Size Per Req= 2560 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[640])
+
+i=2 of 8,  num_elements = 5120, num_el_per_req= 640  Size Per Req= 2560 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[1280])
+
+i=3 of 8,  num_elements = 5120, num_el_per_req= 640  Size Per Req= 2560 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[1920])
+
+i=4 of 8,  num_elements = 5120, num_el_per_req= 640  Size Per Req= 2560 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[2560])
+
+i=5 of 8,  num_elements = 5120, num_el_per_req= 640  Size Per Req= 2560 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[3200])
+
+i=6 of 8,  num_elements = 5120, num_el_per_req= 640  Size Per Req= 2560 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[3840])
+
+i=7 of 8,  num_elements = 5120, num_el_per_req= 640  Size Per Req= 2560 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[4480])
+
+App:[band_req],NumRequests:[8],Size_Req:[5000],AppSize:[5120],Time:[9.62721], TimeUnits:[Time Per Request (ns)], Bandwidth:[1.03872e+08], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[300100]
+i=0 of 8,  num_elements = 6144, num_el_per_req= 768  Size Per Req= 3072 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+i=1 of 8,  num_elements = 6144, num_el_per_req= 768  Size Per Req= 3072 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[768])
+
+i=2 of 8,  num_elements = 6144, num_el_per_req= 768  Size Per Req= 3072 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[1536])
+
+i=3 of 8,  num_elements = 6144, num_el_per_req= 768  Size Per Req= 3072 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[2304])
+
+i=4 of 8,  num_elements = 6144, num_el_per_req= 768  Size Per Req= 3072 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[3072])
+
+i=5 of 8,  num_elements = 6144, num_el_per_req= 768  Size Per Req= 3072 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[3840])
+
+i=6 of 8,  num_elements = 6144, num_el_per_req= 768  Size Per Req= 3072 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[4608])
+
+i=7 of 8,  num_elements = 6144, num_el_per_req= 768  Size Per Req= 3072 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[5376])
+
+App:[band_req],NumRequests:[8],Size_Req:[6000],AppSize:[6144],Time:[9.62804], TimeUnits:[Time Per Request (ns)], Bandwidth:[1.03863e+08], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[300100]
+i=0 of 8,  num_elements = 8192, num_el_per_req= 1024  Size Per Req= 4096 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+i=1 of 8,  num_elements = 8192, num_el_per_req= 1024  Size Per Req= 4096 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[1024])
+
+i=2 of 8,  num_elements = 8192, num_el_per_req= 1024  Size Per Req= 4096 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[2048])
+
+i=3 of 8,  num_elements = 8192, num_el_per_req= 1024  Size Per Req= 4096 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[3072])
+
+i=4 of 8,  num_elements = 8192, num_el_per_req= 1024  Size Per Req= 4096 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[4096])
+
+i=5 of 8,  num_elements = 8192, num_el_per_req= 1024  Size Per Req= 4096 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[5120])
+
+i=6 of 8,  num_elements = 8192, num_el_per_req= 1024  Size Per Req= 4096 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[6144])
+
+i=7 of 8,  num_elements = 8192, num_el_per_req= 1024  Size Per Req= 4096 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[7168])
+
+App:[band_req],NumRequests:[8],Size_Req:[8192],AppSize:[8192],Time:[9.63096], TimeUnits:[Time Per Request (ns)], Bandwidth:[1.03832e+08], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[300100]
+i=0 of 8,  num_elements = 16384, num_el_per_req= 2048  Size Per Req= 8192 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+i=1 of 8,  num_elements = 16384, num_el_per_req= 2048  Size Per Req= 8192 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[2048])
+
+i=2 of 8,  num_elements = 16384, num_el_per_req= 2048  Size Per Req= 8192 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[4096])
+
+i=3 of 8,  num_elements = 16384, num_el_per_req= 2048  Size Per Req= 8192 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[6144])
+
+i=4 of 8,  num_elements = 16384, num_el_per_req= 2048  Size Per Req= 8192 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[8192])
+
+i=5 of 8,  num_elements = 16384, num_el_per_req= 2048  Size Per Req= 8192 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[10240])
+
+i=6 of 8,  num_elements = 16384, num_el_per_req= 2048  Size Per Req= 8192 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[12288])
+
+i=7 of 8,  num_elements = 16384, num_el_per_req= 2048  Size Per Req= 8192 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[14336])
+
+App:[band_req],NumRequests:[8],Size_Req:[16384],AppSize:[16384],Time:[56.7973], TimeUnits:[Time Per Request (ns)], Bandwidth:[1.76065e+07], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[300100]
+i=0 of 8,  num_elements = 50176, num_el_per_req= 6272  Size Per Req= 25088 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+i=1 of 8,  num_elements = 50176, num_el_per_req= 6272  Size Per Req= 25088 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[6272])
+
+i=2 of 8,  num_elements = 50176, num_el_per_req= 6272  Size Per Req= 25088 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[12544])
+
+i=3 of 8,  num_elements = 50176, num_el_per_req= 6272  Size Per Req= 25088 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[18816])
+
+i=4 of 8,  num_elements = 50176, num_el_per_req= 6272  Size Per Req= 25088 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[25088])
+
+i=5 of 8,  num_elements = 50176, num_el_per_req= 6272  Size Per Req= 25088 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[31360])
+
+i=6 of 8,  num_elements = 50176, num_el_per_req= 6272  Size Per Req= 25088 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[37632])
+
+i=7 of 8,  num_elements = 50176, num_el_per_req= 6272  Size Per Req= 25088 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[43904])
+
+App:[band_req],NumRequests:[8],Size_Req:[50100],AppSize:[50176],Time:[70.5119], TimeUnits:[Time Per Request (ns)], Bandwidth:[1.4182e+07], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[300100]
+i=0 of 8,  num_elements = 75264, num_el_per_req= 9408  Size Per Req= 37632 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+i=1 of 8,  num_elements = 75264, num_el_per_req= 9408  Size Per Req= 37632 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[9408])
+
+i=2 of 8,  num_elements = 75264, num_el_per_req= 9408  Size Per Req= 37632 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[18816])
+
+i=3 of 8,  num_elements = 75264, num_el_per_req= 9408  Size Per Req= 37632 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[28224])
+
+i=4 of 8,  num_elements = 75264, num_el_per_req= 9408  Size Per Req= 37632 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[37632])
+
+i=5 of 8,  num_elements = 75264, num_el_per_req= 9408  Size Per Req= 37632 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[47040])
+
+i=6 of 8,  num_elements = 75264, num_el_per_req= 9408  Size Per Req= 37632 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[56448])
+
+i=7 of 8,  num_elements = 75264, num_el_per_req= 9408  Size Per Req= 37632 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[65856])
+
+App:[band_req],NumRequests:[8],Size_Req:[75100],AppSize:[75264],Time:[72.4313], TimeUnits:[Time Per Request (ns)], Bandwidth:[1.38062e+07], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[300100]
+i=0 of 8,  num_elements = 100352, num_el_per_req= 12544  Size Per Req= 50176 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+i=1 of 8,  num_elements = 100352, num_el_per_req= 12544  Size Per Req= 50176 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[12544])
+
+i=2 of 8,  num_elements = 100352, num_el_per_req= 12544  Size Per Req= 50176 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[25088])
+
+i=3 of 8,  num_elements = 100352, num_el_per_req= 12544  Size Per Req= 50176 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[37632])
+
+i=4 of 8,  num_elements = 100352, num_el_per_req= 12544  Size Per Req= 50176 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[50176])
+
+i=5 of 8,  num_elements = 100352, num_el_per_req= 12544  Size Per Req= 50176 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[62720])
+
+i=6 of 8,  num_elements = 100352, num_el_per_req= 12544  Size Per Req= 50176 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[75264])
+
+i=7 of 8,  num_elements = 100352, num_el_per_req= 12544  Size Per Req= 50176 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[87808])
+
+App:[band_req],NumRequests:[8],Size_Req:[100000],AppSize:[100352],Time:[70.0758], TimeUnits:[Time Per Request (ns)], Bandwidth:[1.42703e+07], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[300100]
+i=0 of 8,  num_elements = 262144, num_el_per_req= 32768  Size Per Req= 131072 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+i=1 of 8,  num_elements = 262144, num_el_per_req= 32768  Size Per Req= 131072 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[32768])
+
+i=2 of 8,  num_elements = 262144, num_el_per_req= 32768  Size Per Req= 131072 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[65536])
+
+i=3 of 8,  num_elements = 262144, num_el_per_req= 32768  Size Per Req= 131072 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[98304])
+
+i=4 of 8,  num_elements = 262144, num_el_per_req= 32768  Size Per Req= 131072 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[131072])
+
+i=5 of 8,  num_elements = 262144, num_el_per_req= 32768  Size Per Req= 131072 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[163840])
+
+i=6 of 8,  num_elements = 262144, num_el_per_req= 32768  Size Per Req= 131072 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[196608])
+
+i=7 of 8,  num_elements = 262144, num_el_per_req= 32768  Size Per Req= 131072 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[229376])
+
+App:[band_req],NumRequests:[8],Size_Req:[262144],AppSize:[262144],Time:[91.6124], TimeUnits:[Time Per Request (ns)], Bandwidth:[1.09156e+07], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[300100]
+i=0 of 8,  num_elements = 300544, num_el_per_req= 37568  Size Per Req= 150272 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+i=1 of 8,  num_elements = 300544, num_el_per_req= 37568  Size Per Req= 150272 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[37568])
+
+i=2 of 8,  num_elements = 300544, num_el_per_req= 37568  Size Per Req= 150272 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[75136])
+
+i=3 of 8,  num_elements = 300544, num_el_per_req= 37568  Size Per Req= 150272 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[112704])
+
+i=4 of 8,  num_elements = 300544, num_el_per_req= 37568  Size Per Req= 150272 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[150272])
+
+i=5 of 8,  num_elements = 300544, num_el_per_req= 37568  Size Per Req= 150272 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[187840])
+
+i=6 of 8,  num_elements = 300544, num_el_per_req= 37568  Size Per Req= 150272 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[225408])
+
+i=7 of 8,  num_elements = 300544, num_el_per_req= 37568  Size Per Req= 150272 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[262976])
+
+App:[band_req],NumRequests:[8],Size_Req:[300100],AppSize:[300544],Time:[71.0351], TimeUnits:[Time Per Request (ns)], Bandwidth:[1.40776e+07], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[300100]
+i=0 of 16,  num_elements = 1024, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+i=1 of 16,  num_elements = 1024, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[64])
+
+i=2 of 16,  num_elements = 1024, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[128])
+
+i=3 of 16,  num_elements = 1024, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[192])
+
+i=4 of 16,  num_elements = 1024, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[256])
+
+i=5 of 16,  num_elements = 1024, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[320])
+
+i=6 of 16,  num_elements = 1024, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[384])
+
+i=7 of 16,  num_elements = 1024, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[448])
+
+i=8 of 16,  num_elements = 1024, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[512])
+
+i=9 of 16,  num_elements = 1024, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[576])
+
+i=10 of 16,  num_elements = 1024, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[640])
+
+i=11 of 16,  num_elements = 1024, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[704])
+
+i=12 of 16,  num_elements = 1024, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[768])
+
+i=13 of 16,  num_elements = 1024, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[832])
+
+i=14 of 16,  num_elements = 1024, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[896])
+
+i=15 of 16,  num_elements = 1024, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[960])
+
+App:[band_req],NumRequests:[16],Size_Req:[4],AppSize:[1024],Time:[7.43794], TimeUnits:[Time Per Request (ns)], Bandwidth:[1.34446e+08], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[300100]
+i=0 of 16,  num_elements = 1024, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+i=1 of 16,  num_elements = 1024, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[64])
+
+i=2 of 16,  num_elements = 1024, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[128])
+
+i=3 of 16,  num_elements = 1024, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[192])
+
+i=4 of 16,  num_elements = 1024, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[256])
+
+i=5 of 16,  num_elements = 1024, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[320])
+
+i=6 of 16,  num_elements = 1024, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[384])
+
+i=7 of 16,  num_elements = 1024, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[448])
+
+i=8 of 16,  num_elements = 1024, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[512])
+
+i=9 of 16,  num_elements = 1024, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[576])
+
+i=10 of 16,  num_elements = 1024, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[640])
+
+i=11 of 16,  num_elements = 1024, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[704])
+
+i=12 of 16,  num_elements = 1024, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[768])
+
+i=13 of 16,  num_elements = 1024, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[832])
+
+i=14 of 16,  num_elements = 1024, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[896])
+
+i=15 of 16,  num_elements = 1024, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[960])
+
+App:[band_req],NumRequests:[16],Size_Req:[16],AppSize:[1024],Time:[7.43794], TimeUnits:[Time Per Request (ns)], Bandwidth:[1.34446e+08], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[300100]
+i=0 of 16,  num_elements = 1024, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+i=1 of 16,  num_elements = 1024, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[64])
+
+i=2 of 16,  num_elements = 1024, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[128])
+
+i=3 of 16,  num_elements = 1024, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[192])
+
+i=4 of 16,  num_elements = 1024, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[256])
+
+i=5 of 16,  num_elements = 1024, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[320])
+
+i=6 of 16,  num_elements = 1024, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[384])
+
+i=7 of 16,  num_elements = 1024, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[448])
+
+i=8 of 16,  num_elements = 1024, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[512])
+
+i=9 of 16,  num_elements = 1024, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[576])
+
+i=10 of 16,  num_elements = 1024, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[640])
+
+i=11 of 16,  num_elements = 1024, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[704])
+
+i=12 of 16,  num_elements = 1024, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[768])
+
+i=13 of 16,  num_elements = 1024, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[832])
+
+i=14 of 16,  num_elements = 1024, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[896])
+
+i=15 of 16,  num_elements = 1024, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[960])
+
+App:[band_req],NumRequests:[16],Size_Req:[32],AppSize:[1024],Time:[7.43773], TimeUnits:[Time Per Request (ns)], Bandwidth:[1.3445e+08], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[300100]
+i=0 of 16,  num_elements = 1024, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+i=1 of 16,  num_elements = 1024, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[64])
+
+i=2 of 16,  num_elements = 1024, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[128])
+
+i=3 of 16,  num_elements = 1024, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[192])
+
+i=4 of 16,  num_elements = 1024, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[256])
+
+i=5 of 16,  num_elements = 1024, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[320])
+
+i=6 of 16,  num_elements = 1024, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[384])
+
+i=7 of 16,  num_elements = 1024, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[448])
+
+i=8 of 16,  num_elements = 1024, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[512])
+
+i=9 of 16,  num_elements = 1024, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[576])
+
+i=10 of 16,  num_elements = 1024, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[640])
+
+i=11 of 16,  num_elements = 1024, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[704])
+
+i=12 of 16,  num_elements = 1024, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[768])
+
+i=13 of 16,  num_elements = 1024, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[832])
+
+i=14 of 16,  num_elements = 1024, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[896])
+
+i=15 of 16,  num_elements = 1024, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[960])
+
+App:[band_req],NumRequests:[16],Size_Req:[64],AppSize:[1024],Time:[7.43773], TimeUnits:[Time Per Request (ns)], Bandwidth:[1.3445e+08], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[300100]
+i=0 of 16,  num_elements = 1024, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+i=1 of 16,  num_elements = 1024, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[64])
+
+i=2 of 16,  num_elements = 1024, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[128])
+
+i=3 of 16,  num_elements = 1024, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[192])
+
+i=4 of 16,  num_elements = 1024, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[256])
+
+i=5 of 16,  num_elements = 1024, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[320])
+
+i=6 of 16,  num_elements = 1024, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[384])
+
+i=7 of 16,  num_elements = 1024, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[448])
+
+i=8 of 16,  num_elements = 1024, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[512])
+
+i=9 of 16,  num_elements = 1024, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[576])
+
+i=10 of 16,  num_elements = 1024, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[640])
+
+i=11 of 16,  num_elements = 1024, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[704])
+
+i=12 of 16,  num_elements = 1024, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[768])
+
+i=13 of 16,  num_elements = 1024, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[832])
+
+i=14 of 16,  num_elements = 1024, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[896])
+
+i=15 of 16,  num_elements = 1024, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[960])
+
+App:[band_req],NumRequests:[16],Size_Req:[512],AppSize:[1024],Time:[7.43794], TimeUnits:[Time Per Request (ns)], Bandwidth:[1.34446e+08], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[300100]
+i=0 of 16,  num_elements = 1024, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+i=1 of 16,  num_elements = 1024, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[64])
+
+i=2 of 16,  num_elements = 1024, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[128])
+
+i=3 of 16,  num_elements = 1024, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[192])
+
+i=4 of 16,  num_elements = 1024, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[256])
+
+i=5 of 16,  num_elements = 1024, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[320])
+
+i=6 of 16,  num_elements = 1024, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[384])
+
+i=7 of 16,  num_elements = 1024, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[448])
+
+i=8 of 16,  num_elements = 1024, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[512])
+
+i=9 of 16,  num_elements = 1024, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[576])
+
+i=10 of 16,  num_elements = 1024, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[640])
+
+i=11 of 16,  num_elements = 1024, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[704])
+
+i=12 of 16,  num_elements = 1024, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[768])
+
+i=13 of 16,  num_elements = 1024, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[832])
+
+i=14 of 16,  num_elements = 1024, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[896])
+
+i=15 of 16,  num_elements = 1024, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[960])
+
+App:[band_req],NumRequests:[16],Size_Req:[1024],AppSize:[1024],Time:[7.43773], TimeUnits:[Time Per Request (ns)], Bandwidth:[1.3445e+08], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[300100]
+i=0 of 16,  num_elements = 2048, num_el_per_req= 128  Size Per Req= 512 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+i=1 of 16,  num_elements = 2048, num_el_per_req= 128  Size Per Req= 512 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[128])
+
+i=2 of 16,  num_elements = 2048, num_el_per_req= 128  Size Per Req= 512 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[256])
+
+i=3 of 16,  num_elements = 2048, num_el_per_req= 128  Size Per Req= 512 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[384])
+
+i=4 of 16,  num_elements = 2048, num_el_per_req= 128  Size Per Req= 512 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[512])
+
+i=5 of 16,  num_elements = 2048, num_el_per_req= 128  Size Per Req= 512 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[640])
+
+i=6 of 16,  num_elements = 2048, num_el_per_req= 128  Size Per Req= 512 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[768])
+
+i=7 of 16,  num_elements = 2048, num_el_per_req= 128  Size Per Req= 512 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[896])
+
+i=8 of 16,  num_elements = 2048, num_el_per_req= 128  Size Per Req= 512 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[1024])
+
+i=9 of 16,  num_elements = 2048, num_el_per_req= 128  Size Per Req= 512 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[1152])
+
+i=10 of 16,  num_elements = 2048, num_el_per_req= 128  Size Per Req= 512 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[1280])
+
+i=11 of 16,  num_elements = 2048, num_el_per_req= 128  Size Per Req= 512 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[1408])
+
+i=12 of 16,  num_elements = 2048, num_el_per_req= 128  Size Per Req= 512 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[1536])
+
+i=13 of 16,  num_elements = 2048, num_el_per_req= 128  Size Per Req= 512 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[1664])
+
+i=14 of 16,  num_elements = 2048, num_el_per_req= 128  Size Per Req= 512 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[1792])
+
+i=15 of 16,  num_elements = 2048, num_el_per_req= 128  Size Per Req= 512 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[1920])
+
+App:[band_req],NumRequests:[16],Size_Req:[2048],AppSize:[2048],Time:[7.43794], TimeUnits:[Time Per Request (ns)], Bandwidth:[1.34446e+08], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[300100]
+i=0 of 16,  num_elements = 5120, num_el_per_req= 320  Size Per Req= 1280 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+i=1 of 16,  num_elements = 5120, num_el_per_req= 320  Size Per Req= 1280 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[320])
+
+i=2 of 16,  num_elements = 5120, num_el_per_req= 320  Size Per Req= 1280 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[640])
+
+i=3 of 16,  num_elements = 5120, num_el_per_req= 320  Size Per Req= 1280 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[960])
+
+i=4 of 16,  num_elements = 5120, num_el_per_req= 320  Size Per Req= 1280 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[1280])
+
+i=5 of 16,  num_elements = 5120, num_el_per_req= 320  Size Per Req= 1280 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[1600])
+
+i=6 of 16,  num_elements = 5120, num_el_per_req= 320  Size Per Req= 1280 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[1920])
+
+i=7 of 16,  num_elements = 5120, num_el_per_req= 320  Size Per Req= 1280 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[2240])
+
+i=8 of 16,  num_elements = 5120, num_el_per_req= 320  Size Per Req= 1280 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[2560])
+
+i=9 of 16,  num_elements = 5120, num_el_per_req= 320  Size Per Req= 1280 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[2880])
+
+i=10 of 16,  num_elements = 5120, num_el_per_req= 320  Size Per Req= 1280 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[3200])
+
+i=11 of 16,  num_elements = 5120, num_el_per_req= 320  Size Per Req= 1280 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[3520])
+
+i=12 of 16,  num_elements = 5120, num_el_per_req= 320  Size Per Req= 1280 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[3840])
+
+i=13 of 16,  num_elements = 5120, num_el_per_req= 320  Size Per Req= 1280 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[4160])
+
+i=14 of 16,  num_elements = 5120, num_el_per_req= 320  Size Per Req= 1280 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[4480])
+
+i=15 of 16,  num_elements = 5120, num_el_per_req= 320  Size Per Req= 1280 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[4800])
+
+App:[band_req],NumRequests:[16],Size_Req:[4192],AppSize:[5120],Time:[7.43856], TimeUnits:[Time Per Request (ns)], Bandwidth:[1.34435e+08], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[300100]
+i=0 of 16,  num_elements = 5120, num_el_per_req= 320  Size Per Req= 1280 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+i=1 of 16,  num_elements = 5120, num_el_per_req= 320  Size Per Req= 1280 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[320])
+
+i=2 of 16,  num_elements = 5120, num_el_per_req= 320  Size Per Req= 1280 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[640])
+
+i=3 of 16,  num_elements = 5120, num_el_per_req= 320  Size Per Req= 1280 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[960])
+
+i=4 of 16,  num_elements = 5120, num_el_per_req= 320  Size Per Req= 1280 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[1280])
+
+i=5 of 16,  num_elements = 5120, num_el_per_req= 320  Size Per Req= 1280 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[1600])
+
+i=6 of 16,  num_elements = 5120, num_el_per_req= 320  Size Per Req= 1280 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[1920])
+
+i=7 of 16,  num_elements = 5120, num_el_per_req= 320  Size Per Req= 1280 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[2240])
+
+i=8 of 16,  num_elements = 5120, num_el_per_req= 320  Size Per Req= 1280 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[2560])
+
+i=9 of 16,  num_elements = 5120, num_el_per_req= 320  Size Per Req= 1280 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[2880])
+
+i=10 of 16,  num_elements = 5120, num_el_per_req= 320  Size Per Req= 1280 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[3200])
+
+i=11 of 16,  num_elements = 5120, num_el_per_req= 320  Size Per Req= 1280 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[3520])
+
+i=12 of 16,  num_elements = 5120, num_el_per_req= 320  Size Per Req= 1280 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[3840])
+
+i=13 of 16,  num_elements = 5120, num_el_per_req= 320  Size Per Req= 1280 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[4160])
+
+i=14 of 16,  num_elements = 5120, num_el_per_req= 320  Size Per Req= 1280 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[4480])
+
+i=15 of 16,  num_elements = 5120, num_el_per_req= 320  Size Per Req= 1280 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[4800])
+
+App:[band_req],NumRequests:[16],Size_Req:[5000],AppSize:[5120],Time:[7.43856], TimeUnits:[Time Per Request (ns)], Bandwidth:[1.34435e+08], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[300100]
+i=0 of 16,  num_elements = 6144, num_el_per_req= 384  Size Per Req= 1536 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+i=1 of 16,  num_elements = 6144, num_el_per_req= 384  Size Per Req= 1536 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[384])
+
+i=2 of 16,  num_elements = 6144, num_el_per_req= 384  Size Per Req= 1536 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[768])
+
+i=3 of 16,  num_elements = 6144, num_el_per_req= 384  Size Per Req= 1536 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[1152])
+
+i=4 of 16,  num_elements = 6144, num_el_per_req= 384  Size Per Req= 1536 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[1536])
+
+i=5 of 16,  num_elements = 6144, num_el_per_req= 384  Size Per Req= 1536 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[1920])
+
+i=6 of 16,  num_elements = 6144, num_el_per_req= 384  Size Per Req= 1536 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[2304])
+
+i=7 of 16,  num_elements = 6144, num_el_per_req= 384  Size Per Req= 1536 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[2688])
+
+i=8 of 16,  num_elements = 6144, num_el_per_req= 384  Size Per Req= 1536 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[3072])
+
+i=9 of 16,  num_elements = 6144, num_el_per_req= 384  Size Per Req= 1536 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[3456])
+
+i=10 of 16,  num_elements = 6144, num_el_per_req= 384  Size Per Req= 1536 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[3840])
+
+i=11 of 16,  num_elements = 6144, num_el_per_req= 384  Size Per Req= 1536 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[4224])
+
+i=12 of 16,  num_elements = 6144, num_el_per_req= 384  Size Per Req= 1536 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[4608])
+
+i=13 of 16,  num_elements = 6144, num_el_per_req= 384  Size Per Req= 1536 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[4992])
+
+i=14 of 16,  num_elements = 6144, num_el_per_req= 384  Size Per Req= 1536 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[5376])
+
+i=15 of 16,  num_elements = 6144, num_el_per_req= 384  Size Per Req= 1536 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[5760])
+
+App:[band_req],NumRequests:[16],Size_Req:[6000],AppSize:[6144],Time:[7.43898], TimeUnits:[Time Per Request (ns)], Bandwidth:[1.34427e+08], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[300100]
+i=0 of 16,  num_elements = 8192, num_el_per_req= 512  Size Per Req= 2048 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+i=1 of 16,  num_elements = 8192, num_el_per_req= 512  Size Per Req= 2048 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[512])
+
+i=2 of 16,  num_elements = 8192, num_el_per_req= 512  Size Per Req= 2048 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[1024])
+
+i=3 of 16,  num_elements = 8192, num_el_per_req= 512  Size Per Req= 2048 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[1536])
+
+i=4 of 16,  num_elements = 8192, num_el_per_req= 512  Size Per Req= 2048 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[2048])
+
+i=5 of 16,  num_elements = 8192, num_el_per_req= 512  Size Per Req= 2048 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[2560])
+
+i=6 of 16,  num_elements = 8192, num_el_per_req= 512  Size Per Req= 2048 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[3072])
+
+i=7 of 16,  num_elements = 8192, num_el_per_req= 512  Size Per Req= 2048 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[3584])
+
+i=8 of 16,  num_elements = 8192, num_el_per_req= 512  Size Per Req= 2048 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[4096])
+
+i=9 of 16,  num_elements = 8192, num_el_per_req= 512  Size Per Req= 2048 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[4608])
+
+i=10 of 16,  num_elements = 8192, num_el_per_req= 512  Size Per Req= 2048 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[5120])
+
+i=11 of 16,  num_elements = 8192, num_el_per_req= 512  Size Per Req= 2048 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[5632])
+
+i=12 of 16,  num_elements = 8192, num_el_per_req= 512  Size Per Req= 2048 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[6144])
+
+i=13 of 16,  num_elements = 8192, num_el_per_req= 512  Size Per Req= 2048 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[6656])
+
+i=14 of 16,  num_elements = 8192, num_el_per_req= 512  Size Per Req= 2048 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[7168])
+
+i=15 of 16,  num_elements = 8192, num_el_per_req= 512  Size Per Req= 2048 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[7680])
+
+App:[band_req],NumRequests:[16],Size_Req:[8192],AppSize:[8192],Time:[7.44064], TimeUnits:[Time Per Request (ns)], Bandwidth:[1.34397e+08], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[300100]
+i=0 of 16,  num_elements = 16384, num_el_per_req= 1024  Size Per Req= 4096 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+i=1 of 16,  num_elements = 16384, num_el_per_req= 1024  Size Per Req= 4096 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[1024])
+
+i=2 of 16,  num_elements = 16384, num_el_per_req= 1024  Size Per Req= 4096 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[2048])
+
+i=3 of 16,  num_elements = 16384, num_el_per_req= 1024  Size Per Req= 4096 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[3072])
+
+i=4 of 16,  num_elements = 16384, num_el_per_req= 1024  Size Per Req= 4096 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[4096])
+
+i=5 of 16,  num_elements = 16384, num_el_per_req= 1024  Size Per Req= 4096 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[5120])
+
+i=6 of 16,  num_elements = 16384, num_el_per_req= 1024  Size Per Req= 4096 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[6144])
+
+i=7 of 16,  num_elements = 16384, num_el_per_req= 1024  Size Per Req= 4096 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[7168])
+
+i=8 of 16,  num_elements = 16384, num_el_per_req= 1024  Size Per Req= 4096 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[8192])
+
+i=9 of 16,  num_elements = 16384, num_el_per_req= 1024  Size Per Req= 4096 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[9216])
+
+i=10 of 16,  num_elements = 16384, num_el_per_req= 1024  Size Per Req= 4096 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[10240])
+
+i=11 of 16,  num_elements = 16384, num_el_per_req= 1024  Size Per Req= 4096 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[11264])
+
+i=12 of 16,  num_elements = 16384, num_el_per_req= 1024  Size Per Req= 4096 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[12288])
+
+i=13 of 16,  num_elements = 16384, num_el_per_req= 1024  Size Per Req= 4096 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[13312])
+
+i=14 of 16,  num_elements = 16384, num_el_per_req= 1024  Size Per Req= 4096 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[14336])
+
+i=15 of 16,  num_elements = 16384, num_el_per_req= 1024  Size Per Req= 4096 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[15360])
+
+App:[band_req],NumRequests:[16],Size_Req:[16384],AppSize:[16384],Time:[40.9945], TimeUnits:[Time Per Request (ns)], Bandwidth:[2.43935e+07], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[300100]
+i=0 of 16,  num_elements = 50176, num_el_per_req= 3136  Size Per Req= 12544 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+i=1 of 16,  num_elements = 50176, num_el_per_req= 3136  Size Per Req= 12544 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[3136])
+
+i=2 of 16,  num_elements = 50176, num_el_per_req= 3136  Size Per Req= 12544 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[6272])
+
+i=3 of 16,  num_elements = 50176, num_el_per_req= 3136  Size Per Req= 12544 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[9408])
+
+i=4 of 16,  num_elements = 50176, num_el_per_req= 3136  Size Per Req= 12544 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[12544])
+
+i=5 of 16,  num_elements = 50176, num_el_per_req= 3136  Size Per Req= 12544 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[15680])
+
+i=6 of 16,  num_elements = 50176, num_el_per_req= 3136  Size Per Req= 12544 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[18816])
+
+i=7 of 16,  num_elements = 50176, num_el_per_req= 3136  Size Per Req= 12544 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[21952])
+
+i=8 of 16,  num_elements = 50176, num_el_per_req= 3136  Size Per Req= 12544 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[25088])
+
+i=9 of 16,  num_elements = 50176, num_el_per_req= 3136  Size Per Req= 12544 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[28224])
+
+i=10 of 16,  num_elements = 50176, num_el_per_req= 3136  Size Per Req= 12544 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[31360])
+
+i=11 of 16,  num_elements = 50176, num_el_per_req= 3136  Size Per Req= 12544 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[34496])
+
+i=12 of 16,  num_elements = 50176, num_el_per_req= 3136  Size Per Req= 12544 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[37632])
+
+i=13 of 16,  num_elements = 50176, num_el_per_req= 3136  Size Per Req= 12544 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[40768])
+
+i=14 of 16,  num_elements = 50176, num_el_per_req= 3136  Size Per Req= 12544 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[43904])
+
+i=15 of 16,  num_elements = 50176, num_el_per_req= 3136  Size Per Req= 12544 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[47040])
+
+App:[band_req],NumRequests:[16],Size_Req:[50100],AppSize:[50176],Time:[61.0124], TimeUnits:[Time Per Request (ns)], Bandwidth:[1.63901e+07], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[300100]
+i=0 of 16,  num_elements = 75776, num_el_per_req= 4736  Size Per Req= 18944 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+i=1 of 16,  num_elements = 75776, num_el_per_req= 4736  Size Per Req= 18944 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[4736])
+
+i=2 of 16,  num_elements = 75776, num_el_per_req= 4736  Size Per Req= 18944 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[9472])
+
+i=3 of 16,  num_elements = 75776, num_el_per_req= 4736  Size Per Req= 18944 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[14208])
+
+i=4 of 16,  num_elements = 75776, num_el_per_req= 4736  Size Per Req= 18944 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[18944])
+
+i=5 of 16,  num_elements = 75776, num_el_per_req= 4736  Size Per Req= 18944 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[23680])
+
+i=6 of 16,  num_elements = 75776, num_el_per_req= 4736  Size Per Req= 18944 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[28416])
+
+i=7 of 16,  num_elements = 75776, num_el_per_req= 4736  Size Per Req= 18944 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[33152])
+
+i=8 of 16,  num_elements = 75776, num_el_per_req= 4736  Size Per Req= 18944 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[37888])
+
+i=9 of 16,  num_elements = 75776, num_el_per_req= 4736  Size Per Req= 18944 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[42624])
+
+i=10 of 16,  num_elements = 75776, num_el_per_req= 4736  Size Per Req= 18944 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[47360])
+
+i=11 of 16,  num_elements = 75776, num_el_per_req= 4736  Size Per Req= 18944 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[52096])
+
+i=12 of 16,  num_elements = 75776, num_el_per_req= 4736  Size Per Req= 18944 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[56832])
+
+i=13 of 16,  num_elements = 75776, num_el_per_req= 4736  Size Per Req= 18944 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[61568])
+
+i=14 of 16,  num_elements = 75776, num_el_per_req= 4736  Size Per Req= 18944 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[66304])
+
+i=15 of 16,  num_elements = 75776, num_el_per_req= 4736  Size Per Req= 18944 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[71040])
+
+App:[band_req],NumRequests:[16],Size_Req:[75100],AppSize:[75776],Time:[64.2773], TimeUnits:[Time Per Request (ns)], Bandwidth:[1.55576e+07], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[300100]
+i=0 of 16,  num_elements = 100352, num_el_per_req= 6272  Size Per Req= 25088 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+i=1 of 16,  num_elements = 100352, num_el_per_req= 6272  Size Per Req= 25088 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[6272])
+
+i=2 of 16,  num_elements = 100352, num_el_per_req= 6272  Size Per Req= 25088 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[12544])
+
+i=3 of 16,  num_elements = 100352, num_el_per_req= 6272  Size Per Req= 25088 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[18816])
+
+i=4 of 16,  num_elements = 100352, num_el_per_req= 6272  Size Per Req= 25088 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[25088])
+
+i=5 of 16,  num_elements = 100352, num_el_per_req= 6272  Size Per Req= 25088 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[31360])
+
+i=6 of 16,  num_elements = 100352, num_el_per_req= 6272  Size Per Req= 25088 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[37632])
+
+i=7 of 16,  num_elements = 100352, num_el_per_req= 6272  Size Per Req= 25088 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[43904])
+
+i=8 of 16,  num_elements = 100352, num_el_per_req= 6272  Size Per Req= 25088 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[50176])
+
+i=9 of 16,  num_elements = 100352, num_el_per_req= 6272  Size Per Req= 25088 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[56448])
+
+i=10 of 16,  num_elements = 100352, num_el_per_req= 6272  Size Per Req= 25088 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[62720])
+
+i=11 of 16,  num_elements = 100352, num_el_per_req= 6272  Size Per Req= 25088 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[68992])
+
+i=12 of 16,  num_elements = 100352, num_el_per_req= 6272  Size Per Req= 25088 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[75264])
+
+i=13 of 16,  num_elements = 100352, num_el_per_req= 6272  Size Per Req= 25088 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[81536])
+
+i=14 of 16,  num_elements = 100352, num_el_per_req= 6272  Size Per Req= 25088 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[87808])
+
+i=15 of 16,  num_elements = 100352, num_el_per_req= 6272  Size Per Req= 25088 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[94080])
+
+App:[band_req],NumRequests:[16],Size_Req:[100000],AppSize:[100352],Time:[60.2616], TimeUnits:[Time Per Request (ns)], Bandwidth:[1.65943e+07], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[300100]
+i=0 of 16,  num_elements = 262144, num_el_per_req= 16384  Size Per Req= 65536 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+i=1 of 16,  num_elements = 262144, num_el_per_req= 16384  Size Per Req= 65536 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[16384])
+
+i=2 of 16,  num_elements = 262144, num_el_per_req= 16384  Size Per Req= 65536 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[32768])
+
+i=3 of 16,  num_elements = 262144, num_el_per_req= 16384  Size Per Req= 65536 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[49152])
+
+i=4 of 16,  num_elements = 262144, num_el_per_req= 16384  Size Per Req= 65536 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[65536])
+
+i=5 of 16,  num_elements = 262144, num_el_per_req= 16384  Size Per Req= 65536 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[81920])
+
+i=6 of 16,  num_elements = 262144, num_el_per_req= 16384  Size Per Req= 65536 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[98304])
+
+i=7 of 16,  num_elements = 262144, num_el_per_req= 16384  Size Per Req= 65536 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[114688])
+
+i=8 of 16,  num_elements = 262144, num_el_per_req= 16384  Size Per Req= 65536 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[131072])
+
+i=9 of 16,  num_elements = 262144, num_el_per_req= 16384  Size Per Req= 65536 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[147456])
+
+i=10 of 16,  num_elements = 262144, num_el_per_req= 16384  Size Per Req= 65536 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[163840])
+
+i=11 of 16,  num_elements = 262144, num_el_per_req= 16384  Size Per Req= 65536 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[180224])
+
+i=12 of 16,  num_elements = 262144, num_el_per_req= 16384  Size Per Req= 65536 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[196608])
+
+i=13 of 16,  num_elements = 262144, num_el_per_req= 16384  Size Per Req= 65536 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[212992])
+
+i=14 of 16,  num_elements = 262144, num_el_per_req= 16384  Size Per Req= 65536 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[229376])
+
+i=15 of 16,  num_elements = 262144, num_el_per_req= 16384  Size Per Req= 65536 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[245760])
+
+App:[band_req],NumRequests:[16],Size_Req:[262144],AppSize:[262144],Time:[84.3421], TimeUnits:[Time Per Request (ns)], Bandwidth:[1.18565e+07], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[300100]
+i=0 of 16,  num_elements = 301056, num_el_per_req= 18816  Size Per Req= 75264 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+i=1 of 16,  num_elements = 301056, num_el_per_req= 18816  Size Per Req= 75264 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[18816])
+
+i=2 of 16,  num_elements = 301056, num_el_per_req= 18816  Size Per Req= 75264 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[37632])
+
+i=3 of 16,  num_elements = 301056, num_el_per_req= 18816  Size Per Req= 75264 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[56448])
+
+i=4 of 16,  num_elements = 301056, num_el_per_req= 18816  Size Per Req= 75264 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[75264])
+
+i=5 of 16,  num_elements = 301056, num_el_per_req= 18816  Size Per Req= 75264 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[94080])
+
+i=6 of 16,  num_elements = 301056, num_el_per_req= 18816  Size Per Req= 75264 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[112896])
+
+i=7 of 16,  num_elements = 301056, num_el_per_req= 18816  Size Per Req= 75264 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[131712])
+
+i=8 of 16,  num_elements = 301056, num_el_per_req= 18816  Size Per Req= 75264 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[150528])
+
+i=9 of 16,  num_elements = 301056, num_el_per_req= 18816  Size Per Req= 75264 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[169344])
+
+i=10 of 16,  num_elements = 301056, num_el_per_req= 18816  Size Per Req= 75264 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[188160])
+
+i=11 of 16,  num_elements = 301056, num_el_per_req= 18816  Size Per Req= 75264 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[206976])
+
+i=12 of 16,  num_elements = 301056, num_el_per_req= 18816  Size Per Req= 75264 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[225792])
+
+i=13 of 16,  num_elements = 301056, num_el_per_req= 18816  Size Per Req= 75264 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[244608])
+
+i=14 of 16,  num_elements = 301056, num_el_per_req= 18816  Size Per Req= 75264 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[263424])
+
+i=15 of 16,  num_elements = 301056, num_el_per_req= 18816  Size Per Req= 75264 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[282240])
+
+App:[band_req],NumRequests:[16],Size_Req:[300100],AppSize:[301056],Time:[61.9471], TimeUnits:[Time Per Request (ns)], Bandwidth:[1.61428e+07], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[300100]
+i=0 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+i=1 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[64])
+
+i=2 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[128])
+
+i=3 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[192])
+
+i=4 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[256])
+
+i=5 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[320])
+
+i=6 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[384])
+
+i=7 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[448])
+
+i=8 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[512])
+
+i=9 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[576])
+
+i=10 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[640])
+
+i=11 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[704])
+
+i=12 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[768])
+
+i=13 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[832])
+
+i=14 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[896])
+
+i=15 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[960])
+
+i=16 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[1024])
+
+i=17 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[1088])
+
+i=18 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[1152])
+
+i=19 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[1216])
+
+App:[band_req],NumRequests:[20],Size_Req:[4],AppSize:[1280],Time:[6.35022], TimeUnits:[Time Per Request (ns)], Bandwidth:[1.57475e+08], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[300100]
+i=0 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+i=1 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[64])
+
+i=2 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[128])
+
+i=3 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[192])
+
+i=4 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[256])
+
+i=5 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[320])
+
+i=6 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[384])
+
+i=7 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[448])
+
+i=8 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[512])
+
+i=9 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[576])
+
+i=10 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[640])
+
+i=11 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[704])
+
+i=12 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[768])
+
+i=13 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[832])
+
+i=14 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[896])
+
+i=15 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[960])
+
+i=16 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[1024])
+
+i=17 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[1088])
+
+i=18 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[1152])
+
+i=19 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[1216])
+
+App:[band_req],NumRequests:[20],Size_Req:[16],AppSize:[1280],Time:[6.35022], TimeUnits:[Time Per Request (ns)], Bandwidth:[1.57475e+08], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[300100]
+i=0 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+i=1 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[64])
+
+i=2 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[128])
+
+i=3 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[192])
+
+i=4 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[256])
+
+i=5 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[320])
+
+i=6 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[384])
+
+i=7 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[448])
+
+i=8 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[512])
+
+i=9 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[576])
+
+i=10 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[640])
+
+i=11 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[704])
+
+i=12 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[768])
+
+i=13 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[832])
+
+i=14 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[896])
+
+i=15 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[960])
+
+i=16 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[1024])
+
+i=17 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[1088])
+
+i=18 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[1152])
+
+i=19 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[1216])
+
+App:[band_req],NumRequests:[20],Size_Req:[32],AppSize:[1280],Time:[6.35022], TimeUnits:[Time Per Request (ns)], Bandwidth:[1.57475e+08], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[300100]
+i=0 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+i=1 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[64])
+
+i=2 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[128])
+
+i=3 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[192])
+
+i=4 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[256])
+
+i=5 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[320])
+
+i=6 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[384])
+
+i=7 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[448])
+
+i=8 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[512])
+
+i=9 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[576])
+
+i=10 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[640])
+
+i=11 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[704])
+
+i=12 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[768])
+
+i=13 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[832])
+
+i=14 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[896])
+
+i=15 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[960])
+
+i=16 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[1024])
+
+i=17 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[1088])
+
+i=18 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[1152])
+
+i=19 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[1216])
+
+App:[band_req],NumRequests:[20],Size_Req:[64],AppSize:[1280],Time:[6.35022], TimeUnits:[Time Per Request (ns)], Bandwidth:[1.57475e+08], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[300100]
+i=0 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+i=1 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[64])
+
+i=2 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[128])
+
+i=3 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[192])
+
+i=4 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[256])
+
+i=5 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[320])
+
+i=6 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[384])
+
+i=7 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[448])
+
+i=8 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[512])
+
+i=9 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[576])
+
+i=10 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[640])
+
+i=11 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[704])
+
+i=12 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[768])
+
+i=13 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[832])
+
+i=14 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[896])
+
+i=15 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[960])
+
+i=16 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[1024])
+
+i=17 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[1088])
+
+i=18 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[1152])
+
+i=19 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[1216])
+
+App:[band_req],NumRequests:[20],Size_Req:[512],AppSize:[1280],Time:[6.35022], TimeUnits:[Time Per Request (ns)], Bandwidth:[1.57475e+08], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[300100]
+i=0 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+i=1 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[64])
+
+i=2 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[128])
+
+i=3 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[192])
+
+i=4 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[256])
+
+i=5 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[320])
+
+i=6 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[384])
+
+i=7 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[448])
+
+i=8 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[512])
+
+i=9 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[576])
+
+i=10 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[640])
+
+i=11 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[704])
+
+i=12 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[768])
+
+i=13 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[832])
+
+i=14 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[896])
+
+i=15 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[960])
+
+i=16 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[1024])
+
+i=17 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[1088])
+
+i=18 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[1152])
+
+i=19 of 20,  num_elements = 1280, num_el_per_req= 64  Size Per Req= 256 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[1216])
+
+App:[band_req],NumRequests:[20],Size_Req:[1024],AppSize:[1280],Time:[6.35022], TimeUnits:[Time Per Request (ns)], Bandwidth:[1.57475e+08], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[300100]
+i=0 of 20,  num_elements = 2560, num_el_per_req= 128  Size Per Req= 512 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+i=1 of 20,  num_elements = 2560, num_el_per_req= 128  Size Per Req= 512 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[128])
+
+i=2 of 20,  num_elements = 2560, num_el_per_req= 128  Size Per Req= 512 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[256])
+
+i=3 of 20,  num_elements = 2560, num_el_per_req= 128  Size Per Req= 512 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[384])
+
+i=4 of 20,  num_elements = 2560, num_el_per_req= 128  Size Per Req= 512 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[512])
+
+i=5 of 20,  num_elements = 2560, num_el_per_req= 128  Size Per Req= 512 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[640])
+
+i=6 of 20,  num_elements = 2560, num_el_per_req= 128  Size Per Req= 512 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[768])
+
+i=7 of 20,  num_elements = 2560, num_el_per_req= 128  Size Per Req= 512 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[896])
+
+i=8 of 20,  num_elements = 2560, num_el_per_req= 128  Size Per Req= 512 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[1024])
+
+i=9 of 20,  num_elements = 2560, num_el_per_req= 128  Size Per Req= 512 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[1152])
+
+i=10 of 20,  num_elements = 2560, num_el_per_req= 128  Size Per Req= 512 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[1280])
+
+i=11 of 20,  num_elements = 2560, num_el_per_req= 128  Size Per Req= 512 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[1408])
+
+i=12 of 20,  num_elements = 2560, num_el_per_req= 128  Size Per Req= 512 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[1536])
+
+i=13 of 20,  num_elements = 2560, num_el_per_req= 128  Size Per Req= 512 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[1664])
+
+i=14 of 20,  num_elements = 2560, num_el_per_req= 128  Size Per Req= 512 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[1792])
+
+i=15 of 20,  num_elements = 2560, num_el_per_req= 128  Size Per Req= 512 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[1920])
+
+i=16 of 20,  num_elements = 2560, num_el_per_req= 128  Size Per Req= 512 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[2048])
+
+i=17 of 20,  num_elements = 2560, num_el_per_req= 128  Size Per Req= 512 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[2176])
+
+i=18 of 20,  num_elements = 2560, num_el_per_req= 128  Size Per Req= 512 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[2304])
+
+i=19 of 20,  num_elements = 2560, num_el_per_req= 128  Size Per Req= 512 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[2432])
+
+App:[band_req],NumRequests:[20],Size_Req:[2048],AppSize:[2560],Time:[6.35038], TimeUnits:[Time Per Request (ns)], Bandwidth:[1.57471e+08], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[300100]
+i=0 of 20,  num_elements = 5120, num_el_per_req= 256  Size Per Req= 1024 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+i=1 of 20,  num_elements = 5120, num_el_per_req= 256  Size Per Req= 1024 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[256])
+
+i=2 of 20,  num_elements = 5120, num_el_per_req= 256  Size Per Req= 1024 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[512])
+
+i=3 of 20,  num_elements = 5120, num_el_per_req= 256  Size Per Req= 1024 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[768])
+
+i=4 of 20,  num_elements = 5120, num_el_per_req= 256  Size Per Req= 1024 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[1024])
+
+i=5 of 20,  num_elements = 5120, num_el_per_req= 256  Size Per Req= 1024 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[1280])
+
+i=6 of 20,  num_elements = 5120, num_el_per_req= 256  Size Per Req= 1024 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[1536])
+
+i=7 of 20,  num_elements = 5120, num_el_per_req= 256  Size Per Req= 1024 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[1792])
+
+i=8 of 20,  num_elements = 5120, num_el_per_req= 256  Size Per Req= 1024 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[2048])
+
+i=9 of 20,  num_elements = 5120, num_el_per_req= 256  Size Per Req= 1024 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[2304])
+
+i=10 of 20,  num_elements = 5120, num_el_per_req= 256  Size Per Req= 1024 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[2560])
+
+i=11 of 20,  num_elements = 5120, num_el_per_req= 256  Size Per Req= 1024 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[2816])
+
+i=12 of 20,  num_elements = 5120, num_el_per_req= 256  Size Per Req= 1024 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[3072])
+
+i=13 of 20,  num_elements = 5120, num_el_per_req= 256  Size Per Req= 1024 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[3328])
+
+i=14 of 20,  num_elements = 5120, num_el_per_req= 256  Size Per Req= 1024 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[3584])
+
+i=15 of 20,  num_elements = 5120, num_el_per_req= 256  Size Per Req= 1024 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[3840])
+
+i=16 of 20,  num_elements = 5120, num_el_per_req= 256  Size Per Req= 1024 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[4096])
+
+i=17 of 20,  num_elements = 5120, num_el_per_req= 256  Size Per Req= 1024 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[4352])
+
+i=18 of 20,  num_elements = 5120, num_el_per_req= 256  Size Per Req= 1024 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[4608])
+
+i=19 of 20,  num_elements = 5120, num_el_per_req= 256  Size Per Req= 1024 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[4864])
+
+App:[band_req],NumRequests:[20],Size_Req:[4192],AppSize:[5120],Time:[6.35105], TimeUnits:[Time Per Request (ns)], Bandwidth:[1.57454e+08], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[300100]
+i=0 of 20,  num_elements = 5120, num_el_per_req= 256  Size Per Req= 1024 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+i=1 of 20,  num_elements = 5120, num_el_per_req= 256  Size Per Req= 1024 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[256])
+
+i=2 of 20,  num_elements = 5120, num_el_per_req= 256  Size Per Req= 1024 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[512])
+
+i=3 of 20,  num_elements = 5120, num_el_per_req= 256  Size Per Req= 1024 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[768])
+
+i=4 of 20,  num_elements = 5120, num_el_per_req= 256  Size Per Req= 1024 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[1024])
+
+i=5 of 20,  num_elements = 5120, num_el_per_req= 256  Size Per Req= 1024 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[1280])
+
+i=6 of 20,  num_elements = 5120, num_el_per_req= 256  Size Per Req= 1024 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[1536])
+
+i=7 of 20,  num_elements = 5120, num_el_per_req= 256  Size Per Req= 1024 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[1792])
+
+i=8 of 20,  num_elements = 5120, num_el_per_req= 256  Size Per Req= 1024 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[2048])
+
+i=9 of 20,  num_elements = 5120, num_el_per_req= 256  Size Per Req= 1024 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[2304])
+
+i=10 of 20,  num_elements = 5120, num_el_per_req= 256  Size Per Req= 1024 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[2560])
+
+i=11 of 20,  num_elements = 5120, num_el_per_req= 256  Size Per Req= 1024 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[2816])
+
+i=12 of 20,  num_elements = 5120, num_el_per_req= 256  Size Per Req= 1024 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[3072])
+
+i=13 of 20,  num_elements = 5120, num_el_per_req= 256  Size Per Req= 1024 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[3328])
+
+i=14 of 20,  num_elements = 5120, num_el_per_req= 256  Size Per Req= 1024 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[3584])
+
+i=15 of 20,  num_elements = 5120, num_el_per_req= 256  Size Per Req= 1024 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[3840])
+
+i=16 of 20,  num_elements = 5120, num_el_per_req= 256  Size Per Req= 1024 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[4096])
+
+i=17 of 20,  num_elements = 5120, num_el_per_req= 256  Size Per Req= 1024 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[4352])
+
+i=18 of 20,  num_elements = 5120, num_el_per_req= 256  Size Per Req= 1024 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[4608])
+
+i=19 of 20,  num_elements = 5120, num_el_per_req= 256  Size Per Req= 1024 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[4864])
+
+App:[band_req],NumRequests:[20],Size_Req:[5000],AppSize:[5120],Time:[6.35088], TimeUnits:[Time Per Request (ns)], Bandwidth:[1.57458e+08], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[300100]
+i=0 of 20,  num_elements = 6400, num_el_per_req= 320  Size Per Req= 1280 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+i=1 of 20,  num_elements = 6400, num_el_per_req= 320  Size Per Req= 1280 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[320])
+
+i=2 of 20,  num_elements = 6400, num_el_per_req= 320  Size Per Req= 1280 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[640])
+
+i=3 of 20,  num_elements = 6400, num_el_per_req= 320  Size Per Req= 1280 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[960])
+
+i=4 of 20,  num_elements = 6400, num_el_per_req= 320  Size Per Req= 1280 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[1280])
+
+i=5 of 20,  num_elements = 6400, num_el_per_req= 320  Size Per Req= 1280 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[1600])
+
+i=6 of 20,  num_elements = 6400, num_el_per_req= 320  Size Per Req= 1280 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[1920])
+
+i=7 of 20,  num_elements = 6400, num_el_per_req= 320  Size Per Req= 1280 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[2240])
+
+i=8 of 20,  num_elements = 6400, num_el_per_req= 320  Size Per Req= 1280 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[2560])
+
+i=9 of 20,  num_elements = 6400, num_el_per_req= 320  Size Per Req= 1280 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[2880])
+
+i=10 of 20,  num_elements = 6400, num_el_per_req= 320  Size Per Req= 1280 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[3200])
+
+i=11 of 20,  num_elements = 6400, num_el_per_req= 320  Size Per Req= 1280 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[3520])
+
+i=12 of 20,  num_elements = 6400, num_el_per_req= 320  Size Per Req= 1280 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[3840])
+
+i=13 of 20,  num_elements = 6400, num_el_per_req= 320  Size Per Req= 1280 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[4160])
+
+i=14 of 20,  num_elements = 6400, num_el_per_req= 320  Size Per Req= 1280 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[4480])
+
+i=15 of 20,  num_elements = 6400, num_el_per_req= 320  Size Per Req= 1280 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[4800])
+
+i=16 of 20,  num_elements = 6400, num_el_per_req= 320  Size Per Req= 1280 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[5120])
+
+i=17 of 20,  num_elements = 6400, num_el_per_req= 320  Size Per Req= 1280 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[5440])
+
+i=18 of 20,  num_elements = 6400, num_el_per_req= 320  Size Per Req= 1280 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[5760])
+
+i=19 of 20,  num_elements = 6400, num_el_per_req= 320  Size Per Req= 1280 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[6080])
+
+App:[band_req],NumRequests:[20],Size_Req:[6000],AppSize:[6400],Time:[6.35138], TimeUnits:[Time Per Request (ns)], Bandwidth:[1.57446e+08], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[300100]
+i=0 of 20,  num_elements = 8960, num_el_per_req= 448  Size Per Req= 1792 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+i=1 of 20,  num_elements = 8960, num_el_per_req= 448  Size Per Req= 1792 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[448])
+
+i=2 of 20,  num_elements = 8960, num_el_per_req= 448  Size Per Req= 1792 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[896])
+
+i=3 of 20,  num_elements = 8960, num_el_per_req= 448  Size Per Req= 1792 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[1344])
+
+i=4 of 20,  num_elements = 8960, num_el_per_req= 448  Size Per Req= 1792 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[1792])
+
+i=5 of 20,  num_elements = 8960, num_el_per_req= 448  Size Per Req= 1792 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[2240])
+
+i=6 of 20,  num_elements = 8960, num_el_per_req= 448  Size Per Req= 1792 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[2688])
+
+i=7 of 20,  num_elements = 8960, num_el_per_req= 448  Size Per Req= 1792 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[3136])
+
+i=8 of 20,  num_elements = 8960, num_el_per_req= 448  Size Per Req= 1792 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[3584])
+
+i=9 of 20,  num_elements = 8960, num_el_per_req= 448  Size Per Req= 1792 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[4032])
+
+i=10 of 20,  num_elements = 8960, num_el_per_req= 448  Size Per Req= 1792 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[4480])
+
+i=11 of 20,  num_elements = 8960, num_el_per_req= 448  Size Per Req= 1792 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[4928])
+
+i=12 of 20,  num_elements = 8960, num_el_per_req= 448  Size Per Req= 1792 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[5376])
+
+i=13 of 20,  num_elements = 8960, num_el_per_req= 448  Size Per Req= 1792 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[5824])
+
+i=14 of 20,  num_elements = 8960, num_el_per_req= 448  Size Per Req= 1792 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[6272])
+
+i=15 of 20,  num_elements = 8960, num_el_per_req= 448  Size Per Req= 1792 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[6720])
+
+i=16 of 20,  num_elements = 8960, num_el_per_req= 448  Size Per Req= 1792 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[7168])
+
+i=17 of 20,  num_elements = 8960, num_el_per_req= 448  Size Per Req= 1792 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[7616])
+
+i=18 of 20,  num_elements = 8960, num_el_per_req= 448  Size Per Req= 1792 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[8064])
+
+i=19 of 20,  num_elements = 8960, num_el_per_req= 448  Size Per Req= 1792 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[8512])
+
+App:[band_req],NumRequests:[20],Size_Req:[8192],AppSize:[8960],Time:[12.2762], TimeUnits:[Time Per Request (ns)], Bandwidth:[8.14582e+07], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[300100]
+i=0 of 20,  num_elements = 16640, num_el_per_req= 832  Size Per Req= 3328 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+i=1 of 20,  num_elements = 16640, num_el_per_req= 832  Size Per Req= 3328 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[832])
+
+i=2 of 20,  num_elements = 16640, num_el_per_req= 832  Size Per Req= 3328 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[1664])
+
+i=3 of 20,  num_elements = 16640, num_el_per_req= 832  Size Per Req= 3328 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[2496])
+
+i=4 of 20,  num_elements = 16640, num_el_per_req= 832  Size Per Req= 3328 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[3328])
+
+i=5 of 20,  num_elements = 16640, num_el_per_req= 832  Size Per Req= 3328 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[4160])
+
+i=6 of 20,  num_elements = 16640, num_el_per_req= 832  Size Per Req= 3328 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[4992])
+
+i=7 of 20,  num_elements = 16640, num_el_per_req= 832  Size Per Req= 3328 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[5824])
+
+i=8 of 20,  num_elements = 16640, num_el_per_req= 832  Size Per Req= 3328 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[6656])
+
+i=9 of 20,  num_elements = 16640, num_el_per_req= 832  Size Per Req= 3328 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[7488])
+
+i=10 of 20,  num_elements = 16640, num_el_per_req= 832  Size Per Req= 3328 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[8320])
+
+i=11 of 20,  num_elements = 16640, num_el_per_req= 832  Size Per Req= 3328 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[9152])
+
+i=12 of 20,  num_elements = 16640, num_el_per_req= 832  Size Per Req= 3328 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[9984])
+
+i=13 of 20,  num_elements = 16640, num_el_per_req= 832  Size Per Req= 3328 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[10816])
+
+i=14 of 20,  num_elements = 16640, num_el_per_req= 832  Size Per Req= 3328 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[11648])
+
+i=15 of 20,  num_elements = 16640, num_el_per_req= 832  Size Per Req= 3328 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[12480])
+
+i=16 of 20,  num_elements = 16640, num_el_per_req= 832  Size Per Req= 3328 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[13312])
+
+i=17 of 20,  num_elements = 16640, num_el_per_req= 832  Size Per Req= 3328 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[14144])
+
+i=18 of 20,  num_elements = 16640, num_el_per_req= 832  Size Per Req= 3328 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[14976])
+
+i=19 of 20,  num_elements = 16640, num_el_per_req= 832  Size Per Req= 3328 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[15808])
+
+App:[band_req],NumRequests:[20],Size_Req:[16384],AppSize:[16640],Time:[35.8227], TimeUnits:[Time Per Request (ns)], Bandwidth:[2.79152e+07], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[300100]
+i=0 of 20,  num_elements = 51200, num_el_per_req= 2560  Size Per Req= 10240 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+i=1 of 20,  num_elements = 51200, num_el_per_req= 2560  Size Per Req= 10240 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[2560])
+
+i=2 of 20,  num_elements = 51200, num_el_per_req= 2560  Size Per Req= 10240 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[5120])
+
+i=3 of 20,  num_elements = 51200, num_el_per_req= 2560  Size Per Req= 10240 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[7680])
+
+i=4 of 20,  num_elements = 51200, num_el_per_req= 2560  Size Per Req= 10240 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[10240])
+
+i=5 of 20,  num_elements = 51200, num_el_per_req= 2560  Size Per Req= 10240 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[12800])
+
+i=6 of 20,  num_elements = 51200, num_el_per_req= 2560  Size Per Req= 10240 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[15360])
+
+i=7 of 20,  num_elements = 51200, num_el_per_req= 2560  Size Per Req= 10240 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[17920])
+
+i=8 of 20,  num_elements = 51200, num_el_per_req= 2560  Size Per Req= 10240 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[20480])
+
+i=9 of 20,  num_elements = 51200, num_el_per_req= 2560  Size Per Req= 10240 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[23040])
+
+i=10 of 20,  num_elements = 51200, num_el_per_req= 2560  Size Per Req= 10240 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[25600])
+
+i=11 of 20,  num_elements = 51200, num_el_per_req= 2560  Size Per Req= 10240 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[28160])
+
+i=12 of 20,  num_elements = 51200, num_el_per_req= 2560  Size Per Req= 10240 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[30720])
+
+i=13 of 20,  num_elements = 51200, num_el_per_req= 2560  Size Per Req= 10240 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[33280])
+
+i=14 of 20,  num_elements = 51200, num_el_per_req= 2560  Size Per Req= 10240 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[35840])
+
+i=15 of 20,  num_elements = 51200, num_el_per_req= 2560  Size Per Req= 10240 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[38400])
+
+i=16 of 20,  num_elements = 51200, num_el_per_req= 2560  Size Per Req= 10240 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[40960])
+
+i=17 of 20,  num_elements = 51200, num_el_per_req= 2560  Size Per Req= 10240 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[43520])
+
+i=18 of 20,  num_elements = 51200, num_el_per_req= 2560  Size Per Req= 10240 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[46080])
+
+i=19 of 20,  num_elements = 51200, num_el_per_req= 2560  Size Per Req= 10240 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[48640])
+
+App:[band_req],NumRequests:[20],Size_Req:[50100],AppSize:[51200],Time:[53.4818], TimeUnits:[Time Per Request (ns)], Bandwidth:[1.86979e+07], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[300100]
+i=0 of 20,  num_elements = 75520, num_el_per_req= 3776  Size Per Req= 15104 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+i=1 of 20,  num_elements = 75520, num_el_per_req= 3776  Size Per Req= 15104 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[3776])
+
+i=2 of 20,  num_elements = 75520, num_el_per_req= 3776  Size Per Req= 15104 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[7552])
+
+i=3 of 20,  num_elements = 75520, num_el_per_req= 3776  Size Per Req= 15104 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[11328])
+
+i=4 of 20,  num_elements = 75520, num_el_per_req= 3776  Size Per Req= 15104 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[15104])
+
+i=5 of 20,  num_elements = 75520, num_el_per_req= 3776  Size Per Req= 15104 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[18880])
+
+i=6 of 20,  num_elements = 75520, num_el_per_req= 3776  Size Per Req= 15104 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[22656])
+
+i=7 of 20,  num_elements = 75520, num_el_per_req= 3776  Size Per Req= 15104 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[26432])
+
+i=8 of 20,  num_elements = 75520, num_el_per_req= 3776  Size Per Req= 15104 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[30208])
+
+i=9 of 20,  num_elements = 75520, num_el_per_req= 3776  Size Per Req= 15104 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[33984])
+
+i=10 of 20,  num_elements = 75520, num_el_per_req= 3776  Size Per Req= 15104 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[37760])
+
+i=11 of 20,  num_elements = 75520, num_el_per_req= 3776  Size Per Req= 15104 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[41536])
+
+i=12 of 20,  num_elements = 75520, num_el_per_req= 3776  Size Per Req= 15104 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[45312])
+
+i=13 of 20,  num_elements = 75520, num_el_per_req= 3776  Size Per Req= 15104 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[49088])
+
+i=14 of 20,  num_elements = 75520, num_el_per_req= 3776  Size Per Req= 15104 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[52864])
+
+i=15 of 20,  num_elements = 75520, num_el_per_req= 3776  Size Per Req= 15104 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[56640])
+
+i=16 of 20,  num_elements = 75520, num_el_per_req= 3776  Size Per Req= 15104 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[60416])
+
+i=17 of 20,  num_elements = 75520, num_el_per_req= 3776  Size Per Req= 15104 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[64192])
+
+i=18 of 20,  num_elements = 75520, num_el_per_req= 3776  Size Per Req= 15104 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[67968])
+
+i=19 of 20,  num_elements = 75520, num_el_per_req= 3776  Size Per Req= 15104 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[71744])
+
+App:[band_req],NumRequests:[20],Size_Req:[75100],AppSize:[75520],Time:[62.0327], TimeUnits:[Time Per Request (ns)], Bandwidth:[1.61205e+07], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[300100]
+i=0 of 20,  num_elements = 101120, num_el_per_req= 5056  Size Per Req= 20224 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+i=1 of 20,  num_elements = 101120, num_el_per_req= 5056  Size Per Req= 20224 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[5056])
+
+i=2 of 20,  num_elements = 101120, num_el_per_req= 5056  Size Per Req= 20224 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[10112])
+
+i=3 of 20,  num_elements = 101120, num_el_per_req= 5056  Size Per Req= 20224 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[15168])
+
+i=4 of 20,  num_elements = 101120, num_el_per_req= 5056  Size Per Req= 20224 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[20224])
+
+i=5 of 20,  num_elements = 101120, num_el_per_req= 5056  Size Per Req= 20224 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[25280])
+
+i=6 of 20,  num_elements = 101120, num_el_per_req= 5056  Size Per Req= 20224 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[30336])
+
+i=7 of 20,  num_elements = 101120, num_el_per_req= 5056  Size Per Req= 20224 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[35392])
+
+i=8 of 20,  num_elements = 101120, num_el_per_req= 5056  Size Per Req= 20224 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[40448])
+
+i=9 of 20,  num_elements = 101120, num_el_per_req= 5056  Size Per Req= 20224 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[45504])
+
+i=10 of 20,  num_elements = 101120, num_el_per_req= 5056  Size Per Req= 20224 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[50560])
+
+i=11 of 20,  num_elements = 101120, num_el_per_req= 5056  Size Per Req= 20224 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[55616])
+
+i=12 of 20,  num_elements = 101120, num_el_per_req= 5056  Size Per Req= 20224 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[60672])
+
+i=13 of 20,  num_elements = 101120, num_el_per_req= 5056  Size Per Req= 20224 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[65728])
+
+i=14 of 20,  num_elements = 101120, num_el_per_req= 5056  Size Per Req= 20224 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[70784])
+
+i=15 of 20,  num_elements = 101120, num_el_per_req= 5056  Size Per Req= 20224 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[75840])
+
+i=16 of 20,  num_elements = 101120, num_el_per_req= 5056  Size Per Req= 20224 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[80896])
+
+i=17 of 20,  num_elements = 101120, num_el_per_req= 5056  Size Per Req= 20224 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[85952])
+
+i=18 of 20,  num_elements = 101120, num_el_per_req= 5056  Size Per Req= 20224 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[91008])
+
+i=19 of 20,  num_elements = 101120, num_el_per_req= 5056  Size Per Req= 20224 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[96064])
+
+App:[band_req],NumRequests:[20],Size_Req:[100000],AppSize:[101120],Time:[58.6085], TimeUnits:[Time Per Request (ns)], Bandwidth:[1.70624e+07], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[300100]
+i=0 of 20,  num_elements = 262400, num_el_per_req= 13120  Size Per Req= 52480 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+i=1 of 20,  num_elements = 262400, num_el_per_req= 13120  Size Per Req= 52480 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[13120])
+
+i=2 of 20,  num_elements = 262400, num_el_per_req= 13120  Size Per Req= 52480 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[26240])
+
+i=3 of 20,  num_elements = 262400, num_el_per_req= 13120  Size Per Req= 52480 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[39360])
+
+i=4 of 20,  num_elements = 262400, num_el_per_req= 13120  Size Per Req= 52480 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[52480])
+
+i=5 of 20,  num_elements = 262400, num_el_per_req= 13120  Size Per Req= 52480 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[65600])
+
+i=6 of 20,  num_elements = 262400, num_el_per_req= 13120  Size Per Req= 52480 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[78720])
+
+i=7 of 20,  num_elements = 262400, num_el_per_req= 13120  Size Per Req= 52480 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[91840])
+
+i=8 of 20,  num_elements = 262400, num_el_per_req= 13120  Size Per Req= 52480 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[104960])
+
+i=9 of 20,  num_elements = 262400, num_el_per_req= 13120  Size Per Req= 52480 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[118080])
+
+i=10 of 20,  num_elements = 262400, num_el_per_req= 13120  Size Per Req= 52480 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[131200])
+
+i=11 of 20,  num_elements = 262400, num_el_per_req= 13120  Size Per Req= 52480 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[144320])
+
+i=12 of 20,  num_elements = 262400, num_el_per_req= 13120  Size Per Req= 52480 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[157440])
+
+i=13 of 20,  num_elements = 262400, num_el_per_req= 13120  Size Per Req= 52480 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[170560])
+
+i=14 of 20,  num_elements = 262400, num_el_per_req= 13120  Size Per Req= 52480 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[183680])
+
+i=15 of 20,  num_elements = 262400, num_el_per_req= 13120  Size Per Req= 52480 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[196800])
+
+i=16 of 20,  num_elements = 262400, num_el_per_req= 13120  Size Per Req= 52480 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[209920])
+
+i=17 of 20,  num_elements = 262400, num_el_per_req= 13120  Size Per Req= 52480 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[223040])
+
+i=18 of 20,  num_elements = 262400, num_el_per_req= 13120  Size Per Req= 52480 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[236160])
+
+i=19 of 20,  num_elements = 262400, num_el_per_req= 13120  Size Per Req= 52480 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[249280])
+
+App:[band_req],NumRequests:[20],Size_Req:[262144],AppSize:[262400],Time:[70.5781], TimeUnits:[Time Per Request (ns)], Bandwidth:[1.41687e+07], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[300100]
+i=0 of 20,  num_elements = 300800, num_el_per_req= 15040  Size Per Req= 60160 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[0])
+
+i=1 of 20,  num_elements = 300800, num_el_per_req= 15040  Size Per Req= 60160 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[15040])
+
+i=2 of 20,  num_elements = 300800, num_el_per_req= 15040  Size Per Req= 60160 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[30080])
+
+i=3 of 20,  num_elements = 300800, num_el_per_req= 15040  Size Per Req= 60160 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[45120])
+
+i=4 of 20,  num_elements = 300800, num_el_per_req= 15040  Size Per Req= 60160 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[60160])
+
+i=5 of 20,  num_elements = 300800, num_el_per_req= 15040  Size Per Req= 60160 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[75200])
+
+i=6 of 20,  num_elements = 300800, num_el_per_req= 15040  Size Per Req= 60160 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[90240])
+
+i=7 of 20,  num_elements = 300800, num_el_per_req= 15040  Size Per Req= 60160 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[105280])
+
+i=8 of 20,  num_elements = 300800, num_el_per_req= 15040  Size Per Req= 60160 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[120320])
+
+i=9 of 20,  num_elements = 300800, num_el_per_req= 15040  Size Per Req= 60160 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[135360])
+
+i=10 of 20,  num_elements = 300800, num_el_per_req= 15040  Size Per Req= 60160 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[150400])
+
+i=11 of 20,  num_elements = 300800, num_el_per_req= 15040  Size Per Req= 60160 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[165440])
+
+i=12 of 20,  num_elements = 300800, num_el_per_req= 15040  Size Per Req= 60160 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[180480])
+
+i=13 of 20,  num_elements = 300800, num_el_per_req= 15040  Size Per Req= 60160 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[195520])
+
+i=14 of 20,  num_elements = 300800, num_el_per_req= 15040  Size Per Req= 60160 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[210560])
+
+i=15 of 20,  num_elements = 300800, num_el_per_req= 15040  Size Per Req= 60160 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[225600])
+
+i=16 of 20,  num_elements = 300800, num_el_per_req= 15040  Size Per Req= 60160 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[240640])
+
+i=17 of 20,  num_elements = 300800, num_el_per_req= 15040  Size Per Req= 60160 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[255680])
+
+i=18 of 20,  num_elements = 300800, num_el_per_req= 15040  Size Per Req= 60160 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[270720])
+
+i=19 of 20,  num_elements = 300800, num_el_per_req= 15040  Size Per Req= 60160 bytes cacheline_sz = 64, (num_el_per_req mod cl_sz=0)   &(array[285760])
+
+App:[band_req],NumRequests:[20],Size_Req:[300100],AppSize:[300800],Time:[58.7897], TimeUnits:[Time Per Request (ns)], Bandwidth:[1.70098e+07], BandwidthUnits:[Bandwidth (Req/s)],NumIterations:[300100]
