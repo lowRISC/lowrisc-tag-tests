@@ -1,7 +1,7 @@
 // a scoreboard to record the cache transactions
 
 `ifndef TC_CACHE_RECORDER_H
-`define TC_CACHE_RECORDER_H
+ `define TC_CACHE_RECORDER_H
 
 class ExtendedCacheBlock extends CacheBlock;
 
@@ -18,7 +18,7 @@ endclass // ExtendedCacheBlock
 
 class CacheRecorder;
 
-   local Cache#(ExtendedCacheBlock) scorebard;
+   local Cache#(ExtendedCacheBlock, cacheBlockAddr_t) scorebard;
    
    
    function void record(CacheBlock cb, bit rw, int cid);

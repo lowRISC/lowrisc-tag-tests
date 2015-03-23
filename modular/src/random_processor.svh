@@ -1,7 +1,7 @@
 // a processor that generate random requests
 
 `ifndef TC_RANDOM_PROCESSOR_H
-`define TC_RANDOM_PROCESSOR_H
+ `define TC_RANDOM_PROCESSOR_H
 
 class RandomProcessor extends Processor;
    

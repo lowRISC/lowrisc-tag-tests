@@ -48,8 +48,9 @@ class AcquireMessage;
    cacheBlockAddr_t addr;
    bit [`CacheBlockBytes*8-1:0] data;
    bit [`CacheBlockBytes*`TagBits/8-1:0] tag;
+   int core_id;
 
-   function new(CacheBlock cb, bit w);
+   function new(CacheBlock cb, bit w, int coreid);
       write = w;
       addr = cb.addr;
       if(w) begin
@@ -59,6 +60,7 @@ class AcquireMessage;
          data = 0;
          tag = 0;
       end
+      core_id = coreid;
    endfunction // new
 
    function CacheBlock extract();
@@ -73,6 +75,7 @@ endclass // AcquireMessage
 class GrantMessage;
    bit [`CacheBlockBytes*8-1:0] data;
    bit [`CacheBlockBytes*`TagBits/8-1:0] tag;
+   int core_id;
 
    function CacheBlock extract();
       CacheBlock rv = new();
@@ -81,6 +84,40 @@ class GrantMessage;
    endfunction // extract
    
 endclass // GrantMessage
+
+typedef bit [`MIFAddrBits-1:0] mif_addr_t;
+
+class MemReqCMDMessage;
+   mif_addr_t addr;
+   bit [`MIFTagBits-1:0]       tag;
+   bit                         rw;
+
+   function new (mif_addr_t a, bit [`MIFTagBits-1:0] t, bit rw_flag);
+      addr = a;
+      tag = t;
+      rw = rw_flag;
+   endfunction // new
+   
+endclass // MemReqCMDMessage
+
+class MemDataMessage;
+   bit [`MIFDataBits-1:0]      data;
+
+   function new (bit [`MIFDataBits-1:0] d);
+      data = d;
+   endfunction; // new
+
+endclass // MemDataMessage
+
+class MemRespMessage extends MemDataMessage;
+   bit [`MIFTagBits-1:0]       tag;
+
+   function new (bit [`MIFDataBits-1:0] d, bit [`MIFTagBits-1:0] t);
+      super.new(d);
+      tag = t;
+   endfunction // new
+   
+endclass // MemRespMessage
 
 `endif //  `ifndef TC_PACKET_H
 

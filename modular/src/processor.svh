@@ -1,19 +1,19 @@
 // base class of a processor
 
 `ifndef TC_PROCESSOR_H
-`define TC_PROCESSOR_H
+ `define TC_PROCESSOR_H
 
 class Processor;
 
    // processors private L1 cache
-   Cache#(CacheBlock) L1;
+   Cache#(CacheBlock, cacheBlockAddr_t) L1;
 
    // the shared L2 cache
-   Cache#(CacheBlock) L2_h;
+   Cache#(CacheBlock, cacheBlockAddr_t) L2_h;
 
    // Memory interface
-   mailbox Acquire_h;
-   mailbox Grant_h;
+   protected mailbox Acquire_h;
+   protected mailbox Grant_h;
 
    // global scoreboard to checkfor errors
    local CacheRecorder scorboard;

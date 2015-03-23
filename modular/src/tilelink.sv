@@ -23,6 +23,17 @@ interface TLinkAcquireInf;
       logic [`TLWordAddrBits-1:0]     subword_addr;
       logic [`TLAtomicOpBits-1:0]     atomic_opcode
    } payload;
+
+   function bit is_write();
+      return a_type == `acquireWriteUncached;
+   endfunction // is_write
+
+   function bit is_read();
+      return 
+        (a_type == `acquireReadShared) &&
+        (a_type == `acquireReadExclusive) &&
+        (a_type == `acquireReadUncached);
+   endfunction // is_read
    
 endinterface // TLinkAcquireInf
 
