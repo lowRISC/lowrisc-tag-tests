@@ -10,7 +10,7 @@ default: all
 
 RISCV_PREFIX=riscv64-unknown-elf-
 RISCV_GCC = $(RISCV_PREFIX)gcc
-RISCV_LINUX_PREFIX=riscv64-unknown-linux-gnu-
+RISCV_LINUX_PREFIX=riscv-linux-
 RISCV_LINUX_GCC = $(RISCV_LINUX_PREFIX)gcc
 RISCV_GCC_OPTS = -I.. -O3
 RISCV_LINUX_GCC_OPTS = -I.. -O3 -static
