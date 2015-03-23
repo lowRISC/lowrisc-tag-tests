@@ -1,5 +1,8 @@
 // a behaviour cache
 
+`ifndef TC_CACHE_H
+`define TC_CACHE_H
+
 class Cache #(type T = CacheBlock);
 
    // define a cache using an associate array
@@ -54,3 +57,5 @@ class Cache #(type T = CacheBlock);
    endfunction // get_random
 
 endclass // Cache
+
+`endif

@@ -1,5 +1,8 @@
 // define all macros
 
+`ifndef TC_CONFIG_H
+`define TC_CONFIG_H
+
 // the number of tag bits attached to eadh 64-bit double word
 `define TagBits 4
 
@@ -50,3 +53,5 @@
 
 // the warming up time in ns
 `define WarmUpTime 2000
+
+`endif //  `ifndef TC_CONFIG_H

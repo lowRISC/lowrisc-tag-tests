@@ -1,5 +1,8 @@
 // base class of a processor
 
+`ifndef TC_PROCESSOR_H
+`define TC_PROCESSOR_H
+
 class Processor;
 
    // processors private L1 cache
@@ -50,4 +53,5 @@ class Processor;
 
 endclass // Processor
 
-      
+`endif //  `ifndef TC_PROCESSOR_H
+

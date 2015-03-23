@@ -1,4 +1,8 @@
 // define the packets used by caches
+
+`ifndef TC_PACKET_H
+`define TC_PACKET_H
+
 typedef bit [`PAddrBits-1:0] cacheBlockAddr_t;
 
 class CacheBlock;
@@ -9,22 +13,33 @@ class CacheBlock;
    constraint dw_align { addr[2:0] == 3'b000; }
 
    // a deep copy function
-   function void copy(CacheBlock rhs);
+   virtual function void copy(CacheBlock rhs);
       addr = rhs.addr;
       data = rhs.data;
       tag = rhs.tag;
    endfunction // copy
    
    // a deep copy function for data only
-   function void copy_data(CacheBlock rhs);
+   virtual function void copy_data(CacheBlock rhs);
       data = rhs.data;
       tag = rhs.tag;
    endfunction // copy_data
 
    // a deep copy function for address only
-   function void copy_addr(CacheBlock rhs);
+   virtual function void copy_addr(CacheBlock rhs);
       addr = rhs.addr;
    endfunction // copy_addr
+
+   virtual function int is_equal(CacheBlock rhs);
+      return
+        (addr == rhs.addr) &&
+        (data == rhs.data) &&
+        (tag == rhs.tag);
+   endfunction // is_equal
+
+   virtual function string convert2string();
+      $sformat(convert2string, "[%0h]%0h(%0h)", addr, data, tag);
+   endfunction
 
 endclass // CacheBlock
 
@@ -67,5 +82,6 @@ class GrantMessage;
    
 endclass // GrantMessage
 
+`endif //  `ifndef TC_PACKET_H
 
 
