@@ -17,7 +17,7 @@ class Processor;
 
    // global scoreboard to checkfor errors
    local CacheRecorder scorboard;
-   local core_id;
+   local int core_id;
    
    // construct
    function new(Cache L2, mailbox acq, mailbox gnt, CacheRecorder sb, int cid);
@@ -31,24 +31,29 @@ class Processor;
 
    // write operation
    virtual task write(CacheBlock cb);
-      AcquireMessage m = new(cb, 1'b1, core_id);
+      AcquireMessage m;
+
+      m = new(cb, 1'b1, core_id);
       Acquire_h.put(m);
       scoreboard.record(cb, 1'b1);
    endtask; // write
 
    // read operation
    virtual task read(CacheBlock cb);
-      AcquireMessage acq= new(cb, 1'b0, core_id);
+      AcquireMessage acq;
+      GrantMessage gnt;
+      CacheBlock mcb;
+            
+      acq= new(cb, 1'b0, core_id);
       Acquire_h.put(acq);
 
       // wait for grant
-      GrantMessage gnt;
       Grant_h.get(gnt);
 
       // write it to L1 and L2
-      CacheBlock mcb = gnt.extract();
-      mcb.copy_addr(cb)
-      scoreboard.record(mcb, 1'b0);
+      mcb = gnt.extract();
+      mcb.copy_addr(cb);
+      scoreboard.record(mcb, 1'b0, core_id);
       L1.add(mcb);
       L2_h.add(mcb);
       

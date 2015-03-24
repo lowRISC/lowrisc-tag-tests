@@ -12,8 +12,8 @@ class RandomProcessor extends Processor;
 
    typedef enum {read_miss, write_miss, write_back} OpType;
 
-   OpType operation;
-   protected Operation dist {read_miss := 60, write_miss := 30; write_back := 10};
+   protected OpType operation;
+   constraint opRange {Operation dist {read_miss := 60, write_miss := 30, write_back := 10}; }
 
    // mem operation period
    protected const int  mem_period = 1000 / `LD_ST_Freq;
@@ -66,7 +66,7 @@ class RandomProcessor extends Processor;
            write_back: begin
               m = cachGen(write_back);
               m_rand.randomize(); // always write a different daya when write back
-              m.copy_data(m_rand)
+              m.copy_data(m_rand);
               write(m);
               L1.remove(m);
               L2_h.remove(m);

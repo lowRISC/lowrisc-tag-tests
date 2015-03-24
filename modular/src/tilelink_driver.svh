@@ -25,10 +25,11 @@ class AcquireDriver;
       #0.1;
       
       while(1'b1) begin
-         acq.valid = 1'b0;
          AcquireMessage m;
-         Acquire_h.get(m);
          automatic int i = 0;
+
+         acq.valid = 1'b0;
+         Acquire_h.get(m);
 
          while(i==0 || (m.write && i<`TLDataBeats)) begin
             acq.addr = m.addr;

@@ -10,6 +10,9 @@ package cache_pkg;
    // definition of cache
 `include "cache.svh"
 
+   // global scoreboard to record memory read/write
+`include "cache_recorder.svh"
+
    // definition of a processor
 `include "processor.svh"
 
@@ -19,12 +22,9 @@ package cache_pkg;
    // behavioural memory
 `include "memory.svh"
 
-   // global scoreboard to record memory read/write
-`include "cache_recorder.svh"
-
    // drivers
 `include "tilelink_driver.svh"
-`include "memory_driver.svh"
+`include "mem_driver.svh"
 
    // the test environment
 `include "cache_env.svh"

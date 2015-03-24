@@ -49,7 +49,7 @@ class Memory;
             #(mdelay)
             
             if(!mem.exist(cmd_msg.addr))
-              mem[cmd_msg.addr] = MemDataMessage(0);
+              mem[cmd_msg.addr] = new(0);
 
             resp_msg = new(mem[cmd_msg.addr].data, cmd_msg.tag);
             resp.put(resp_msg);

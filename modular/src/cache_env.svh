@@ -33,22 +33,6 @@ class CacheTestEnv #(int NCore = 2);
    mailbox mem_data_queue;
    mailbox mem_resp_queue;
 
-   function new(
-                TLinkAcquireInf acq_h,
-                TLinkGrantInf gnt_h,
-                MemReqCMDInf mem_req_h,
-                MemDataInf mem_data_h,
-                MemRespInf mem_resp_h,
-                ClockInf clock_h         
-                );
-      acq = acq_h;
-      gnt = gnt_h;
-      mem_req = mem_req_h;
-      mem_data = mem_data_h;
-      mem_resp = mem_resp_h;
-      clock = clock_h;
-   endfunction // new
-
    virtual function void build_processor();
       foreach(proc[i]) proc[i] = new(L2, acq_queue, gnt_queue[i], scoreboard, i);
    endfunction // build_processor

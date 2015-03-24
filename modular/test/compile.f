@@ -1,0 +1,9 @@
++incdir+../src
+-full64
+-sverilog
+../src/cache_package.sv
+../src/memory.sv
+../src/tagcache_wrapper.sv
+../src/tilelink.sv
+../src/top.sv
+../../../../vsim/generated-src/Top.DefaultVLSIConfig.v

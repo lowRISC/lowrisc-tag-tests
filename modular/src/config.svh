@@ -25,7 +25,7 @@
 //-------------- Hardware parameters ------------------//
 
 // the number of tag bits attached to eadh 64-bit double word
- `define TagBits 4
+// `define TagBits 4
 // the width of a pyshical address
  `define PAddrBits 32
 // the number of end points, including masters and clients
@@ -33,31 +33,27 @@
 // the width of addresses on TileLink channels
  `define TLAddrBits 26
 // the bit size of the client transaction id field
- `define TLClientXactIdBits 3
+ `define TLClientXactIdBits 5
 // the bit size of the master transaction id field
- `define TLMasterXactIdBits 1;
+ `define TLMasterXactIdBits 1
 // the width of the data in one TileLink message
- `define TLDataBits 544
+ `define TLDataBits 136
 // the number of beats
- `define TLDataBeats
+ `define TLDataBeats 4
 // the bit size of the Acquire type field
- `define acquireTypeWidth 3
+ `define acquireTypeWidth 2
  `define acquireReadShared 0
  `define acquireReadExclusive 1
  `define acquireReadUncached 2
  `define acquireWriteUncached 3
-// the bit width of write mask field
- `define TLWriteMaskBits 6
-// the bit width of word address field
- `define TLWordAddrBits 3
-// the bit width of the atomic operation
- `define TLAtomicOpBits 4
+// the bit width of sub-block field
+ `define TLSubblockBits 129
 // the width of the address on the memory interface
- `define MIFAddrBits
+ `define MIFAddrBits 26
 // the bit width of the tag field in memory messages
- `define MIFTagBits
+ `define MIFTagBits 5
 // the width of data in a memory data message
- `define MIFDataBits
+ `define MIFDataBits 128
 // the number of beats
- `define MIFDataBeats
+ `define MIFDataBeats 4
 `endif //  `ifndef TC_CONFIG_H

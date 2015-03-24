@@ -34,7 +34,16 @@ module top;
 
    
    initial begin
-      tester = new(uc_acq, uc_gnt, mem_cmd, mem_data, mem_resp, clock);
+      tester = new;
+      
+      tester.acq = uc_acq;
+      tester.gnt = uc_gnt;
+      tester.mem_req =  mem_cmd;
+      tester.mem_data =  mem_data;
+      tester.mem_resp =  mem_resp;
+      tester.clock = clock;
+
+      tester.build();
 
       tester.execute();
    end

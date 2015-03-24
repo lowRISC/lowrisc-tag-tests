@@ -8,12 +8,7 @@ class Cache #(type T = CacheBlock, type TA = cacheBlockAddr_t);
    // define a cache using an associate array
    protected T cache [ TA ];
 
-   // check whether a block exists, using a block
-   function int exist (T cb);
-      return exist(cb.addr);
-   endfunction // exist
-
-   // check whether a block exists, using an address
+   // check whether a block exists
    function int exist (TA cba);
       return cache.exists(cba);
    endfunction // exist
@@ -27,11 +22,6 @@ class Cache #(type T = CacheBlock, type TA = cacheBlockAddr_t);
    function void add (T cb);
       cache[cb.addr] = cb;
    endfunction // add
-
-   // remove a block from the cache
-   function void remove (T cb);
-      remove(cb.addr);
-   endfunction // remove
 
    // remove a block from the cache
    function void remove (TA cba);

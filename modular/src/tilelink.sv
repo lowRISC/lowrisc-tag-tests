@@ -19,9 +19,7 @@ interface TLinkAcquireInf;
       logic [`TLDataBits-1:0]         data;
       logic                           uncached;
       logic [`acquireTypeWidth-1:0]   a_type;              // message type
-      logic [`TLWriteMaskBits-1:0]    write_mask;
-      logic [`TLWordAddrBits-1:0]     subword_addr;
-      logic [`TLAtomicOpBits-1:0]     atomic_opcode
+      logic [`TLSubblockBits-1:0]     subblock;
    } payload;
 
    function bit is_write();
@@ -46,7 +44,7 @@ interface TLinkGrantInf;
 
    struct {
       logic [`TLClientXactIdBits-1:0] client_xact_id;      // client transaction identifier
-      logic [`TLMasterXactIdBits-1:0] master_xact_id;      // master transaction identifier
+      logic [`TLMasterXactIdBits-1:0] manager_xact_id;     // manager transaction identifier
       logic [`TLDataBits-1:0]         data;
       logic [`grantTypeWidth-1:0]     g_type;              // message type
    } payload;
@@ -61,7 +59,7 @@ interface TLinkFinishInf;
    TLink_header_t header;
 
    typedef struct {
-      logic [`TLMasterXactIdBits-1:0] master_xact_id;      // master transaction identifier
+      logic [`TLMasterXactIdBits-1:0] manager_xact_id;     // manager transaction identifier
    } payload;
    
 endinterface // TLinkFinishInf
