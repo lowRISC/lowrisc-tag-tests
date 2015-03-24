@@ -75,7 +75,6 @@ endclass // AcquireMessage
 class GrantMessage;
    bit [`CacheBlockBytes*8-1:0] data;
    bit [`CacheBlockBytes*`TagBits/8-1:0] tag;
-   int core_id;
 
    function CacheBlock extract();
       CacheBlock rv = new();

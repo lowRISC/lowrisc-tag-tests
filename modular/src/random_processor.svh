@@ -6,8 +6,8 @@
 class RandomProcessor extends Processor;
    
    // construct
-   function new(Cache L2, mailbox acq, mailbox gnt, CacheRecorder sb);
-      super.new(L2, acq, gnt);
+   function new(Cache L2, mailbox acq, mailbox gnt, CacheRecorder sb, int cid);
+      super.new(L2, acq, gnt, sb, cid);
    endfunction // new
 
    typedef enum {read_miss, write_miss, write_back} OpType;

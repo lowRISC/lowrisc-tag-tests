@@ -2,7 +2,7 @@
 
 module TagCacheWrapper 
   ( 
-    input clk, input rest, input init, 
+    interface clock, 
     interface uc_acq, 
     interface uc_gnt,
     interface uc_fin,
@@ -13,9 +13,9 @@ module TagCacheWrapper
 
    TagCache
      TC (
-         .clk                                              ( clk                           ),
-         .reset                                            ( reset                         ),
-         .init                                             ( init                          ),
+         .clk                                              ( clock.clk                     ),
+         .reset                                            ( clock.reset                   ),
+         .init                                             ( clock.init                    ),
          .io_uncached_acquire_ready                        ( uc_acq.ready                  ),
          .io_uncached_acquire_valid                        ( uc_acq.valid                  ),
          .io_uncached_acquire_bits_header_src              ( uc_acq.header.src             ),
