@@ -18,20 +18,20 @@ interface ClockInf;
 endinterface // ClockInf
 
 
-module top;
+module test_top;
    import cache_pkg::*;
 
-   ClockInf clock;
-   TLinkAcquireInf uc_acq;
-   TLinkGrantInf uc_gnt;
-   MemReqCMDInf mem_cmd;
-   MemDataInf mem_data;
-   MemRespInf mem_resp;
+   ClockInf clock();
+   TLinkAcquireInf uc_acq();
+   TLinkGrantInf uc_gnt();
+   TLinkFinishInf uc_fin();
+   MemReqCMDInf mem_cmd();
+   MemDataInf mem_data();
+   MemRespInf mem_resp();
 
-   TagCacheWrapper DUT(*);
+   TagCacheWrapper DUT(.*);
 
-   RandomTester #(`NCore) tester;
-
+   RandomTester #(.NCore(`NCore)) tester;
    
    initial begin
       tester = new;
@@ -48,7 +48,8 @@ module top;
       tester.execute();
    end
 
-endmodule // top
+endmodule // test_top
+
 
 
       

@@ -8,7 +8,7 @@ class MemReqDriver;
    virtual MemReqCMDInf mem_cmd;
    virtual MemDataInf mem_data;
    virtual ClockInf clock;
-
+   
    protected mailbox MemCmd_h;
    protected mailbox MemDat_h;
 
@@ -21,7 +21,7 @@ class MemReqDriver;
       wait(clock.reset == 1'b1);
 
       mem_cmd.ready = 1'b0;
-      mem_dat.ready = 1'b0;
+      mem_data.ready = 1'b0;
 
       @(negedge clock.reset);
       @(posedge clock.clk);
@@ -45,10 +45,10 @@ class MemReqDriver;
          end
 
          if(rw) begin
-            mem_dat.ready = 1'b1;
+            mem_data.ready = 1'b1;
             while (i < `MIFDataBeats) begin
-               if(mem_dat.valid) begin
-                  dat_m.data[i*`MIFDataBits +: `MIFDataBits] = mem_dat.data;
+               if(mem_data.valid) begin
+                  dat_m.data[i*`MIFDataBits +: `MIFDataBits] = mem_data.data;
                   i++;
                end
 
@@ -56,7 +56,7 @@ class MemReqDriver;
                #0.1;
             end
             mem_data.ready = 1'b0;
-            MemDat_h.put(mem_dat);
+            MemDat_h.put(dat_m);
          end else begin // if (rw)
             @(posedge clock.clk);
             #0.1;
@@ -69,6 +69,7 @@ endclass // MemReqDriver
 class MemRespDriver;
 
    virtual MemRespInf mem_resp;
+   virtual ClockInf clock;
 
    protected mailbox MemResp_h;
 

@@ -3,9 +3,9 @@
 `ifndef TC_RAMDOM_TESTER_H
  `define TC_RANDOM_TESTER_H
 
-class RandomTester #(int NCore = 2) extends CacheTestEnv #(NCore);
+class RandomTester #(parameter int NCore = 2) extends CacheTestEnv #(NCore);
 
-   local RandomProcessor rproc [NCore-1:0]
+   local RandomProcessor rproc [NCore-1:0];
 
    virtual function void build_processor();
       foreach(proc[i]) begin

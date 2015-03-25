@@ -19,8 +19,8 @@ class Cache #(type T = CacheBlock, type TA = cacheBlockAddr_t);
    endfunction // size
    
    // add a block into the cache
-   function void add (T cb);
-      cache[cb.addr] = cb;
+   function void add (TA addr, T cb);
+      cache[addr] = cb;
    endfunction // add
 
    // remove a block from the cache
@@ -37,12 +37,13 @@ class Cache #(type T = CacheBlock, type TA = cacheBlockAddr_t);
 
    // helper variable for get_random
    rand TA random_block_addr;
-   constraint must_exist { cache.exist(random_block_addr); }
-
+   
    // get a random block from the cache
    function T get_random();
       assert(cache.size());
       this.randomize();
+      if(!cache.next(random_block_addr))
+        cache.prev(random_block_addr);
       return cache[random_block_addr];
    endfunction // get_random
 

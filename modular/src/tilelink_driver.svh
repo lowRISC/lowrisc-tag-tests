@@ -32,15 +32,15 @@ class AcquireDriver;
          Acquire_h.get(m);
 
          while(i==0 || (m.write && i<`TLDataBeats)) begin
-            acq.addr = m.addr;
-            acq.client_xact_id = m.core_id;
-            acq.uncached = 1'b1;
+            acq.payload.addr = m.addr;
+            acq.payload.client_xact_id = m.core_id;
+            acq.payload.uncached = 1'b0;
             if(m.write) begin
-               acq.a_type = `acquireWriteUncached;
-               acq.data = m.data[`TLDataBits:0];
+               acq.payload.a_type = `acquireUncachedWrite;
+               acq.payload.data = m.data[`TLDataBits:0];
                m.data = m.data >> `TLDataBits;
             end else
-              acq.a_type = `acquireReadShared;
+              acq.payload.a_type = `acquireUncachedRead;
 
             acq.valid = 1'b1;
             if(acq.ready == 1'b1) i++;
@@ -84,8 +84,8 @@ class GrantDriver #(int NCore = 2);
          
          while(i<`TLDataBeats) begin
             if(gnt.valid) begin
-               core_id = gnt.client_xact_id;
-               m.data[i*TLDataBits +: TLDataBits] = gnt.data;
+               core_id = gnt.payload.client_xact_id;
+               m.data[i*`TLDataBits +: `TLDataBits] = gnt.payload.data;
                i++;
             end
             

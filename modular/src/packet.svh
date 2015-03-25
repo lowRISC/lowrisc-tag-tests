@@ -38,8 +38,8 @@ class CacheBlock;
    endfunction // is_equal
 
    virtual function string convert2string();
-      //$sformat(convert2string, "[%0h]%0h(%0h)", addr, data, tag);
-      $sformat(convert2string, "[%0h]%0h", addr, data);
+      //$sformat(convert2string, "Cache [%0h]%0h(%0h)", addr, data, tag);
+      $sformat(convert2string, "Cache [%0h]%0h", addr, data);
    endfunction
 
 endclass // CacheBlock
@@ -98,14 +98,22 @@ class MemReqCMDMessage;
       rw = rw_flag;
    endfunction // new
    
+   virtual function string convert2string();
+      $sformat(convert2string, "MemReqCMD [%0h]%0h,%d", addr, tag, rw);
+   endfunction
+
 endclass // MemReqCMDMessage
 
 class MemDataMessage;
    bit [`MIFDataBits-1:0]      data;
 
-   function new (bit [`MIFDataBits-1:0] d);
+   function new (bit [`MIFDataBits-1:0] d = 0);
       data = d;
    endfunction; // new
+
+   virtual function string convert2string();
+      $sformat(convert2string, "MemReqDat %0h", data);
+   endfunction
 
 endclass // MemDataMessage
 

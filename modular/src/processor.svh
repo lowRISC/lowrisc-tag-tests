@@ -3,7 +3,7 @@
 `ifndef TC_PROCESSOR_H
  `define TC_PROCESSOR_H
 
-class Processor;
+virtual class Processor;
 
    // processors private L1 cache
    Cache#(CacheBlock, cacheBlockAddr_t) L1;
@@ -16,7 +16,7 @@ class Processor;
    protected mailbox Grant_h;
 
    // global scoreboard to checkfor errors
-   local CacheRecorder scorboard;
+   local CacheRecorder scoreboard;
    local int core_id;
    
    // construct
@@ -35,7 +35,7 @@ class Processor;
 
       m = new(cb, 1'b1, core_id);
       Acquire_h.put(m);
-      scoreboard.record(cb, 1'b1);
+      scoreboard.record(cb, 1'b1, core_id);
    endtask; // write
 
    // read operation
@@ -54,10 +54,12 @@ class Processor;
       mcb = gnt.extract();
       mcb.copy_addr(cb);
       scoreboard.record(mcb, 1'b0, core_id);
-      L1.add(mcb);
-      L2_h.add(mcb);
+      L1.add(mcb.addr, mcb);
+      L2_h.add(mcb.addr, mcb);
       
    endtask // read
+
+   pure virtual task execute;
 
 endclass // Processor
 

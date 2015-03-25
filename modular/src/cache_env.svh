@@ -3,7 +3,7 @@
 `ifndef TC_CACHE_ENV_H
  `define TC_CACHE_ENV_H
 
-class CacheTestEnv #(int NCore = 2);
+virtual class CacheTestEnv #(int NCore = 2);
    
    // physical interfaces to connect the DUT
    virtual TLinkAcquireInf acq;
@@ -14,17 +14,17 @@ class CacheTestEnv #(int NCore = 2);
    virtual ClockInf clock;
 
    // behavioural test bench components
-   Processor proc [NCore-1:0];  // processors
+   Processor proc [NCore-1:0];              // processors
    Cache#(CacheBlock, cacheBlockAddr_t) L2; // the shared L2 cache
-   AcquireDriver acq_driver;    // TileLink Acquire message driver
-   GrantDriver gnt_driver;      // TileLink Grant message driver
+   AcquireDriver acq_driver;                // TileLink Acquire message driver
+   GrantDriver#(NCore) gnt_driver;          // TileLink Grant message driver
 
-   CacheRecorder scorboard;     // Global scoreboard for cache read/write transactions
+   CacheRecorder scoreboard;      // Global scoreboard for cache read/write transactions
 
-   MemReqDriver mem_req_driver; // Memory interface request driver
+   MemReqDriver mem_req_driver;   // Memory interface request driver
    MemRespDriver mem_resp_driver; // Memory interface response driver
 
-   Memory mem;                  // memory
+   Memory mem;                    // memory
 
    // channels
    mailbox acq_queue;
@@ -33,9 +33,7 @@ class CacheTestEnv #(int NCore = 2);
    mailbox mem_data_queue;
    mailbox mem_resp_queue;
 
-   virtual function void build_processor();
-      foreach(proc[i]) proc[i] = new(L2, acq_queue, gnt_queue[i], scoreboard, i);
-   endfunction // build_processor
+   pure virtual function void build_processor();
 
    function void build();
       // all mailboxes
@@ -76,7 +74,7 @@ class CacheTestEnv #(int NCore = 2);
          acq_driver.execute();
          gnt_driver.execute();
          mem_req_driver.execute();
-         mem_req_driver.execute();
+         mem_resp_driver.execute();
       join_none
 
       // wait for reset
@@ -85,7 +83,7 @@ class CacheTestEnv #(int NCore = 2);
       // start all other components
       fork
          foreach(proc[i]) proc[i].execute();
-         memory.execute();
+         mem.execute();
       join_none
       
    endtask // execute

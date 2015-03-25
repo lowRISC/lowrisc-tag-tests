@@ -16,7 +16,7 @@ package cache_pkg;
    // definition of a processor
 `include "processor.svh"
 
-   // random processor tester
+   // random processor
 `include "random_processor.svh"
 
    // behavioural memory
@@ -28,6 +28,9 @@ package cache_pkg;
 
    // the test environment
 `include "cache_env.svh"
+
+   // the rand test bench
+`include "random_tester.svh"
 
 endpackage // cache_pkg
    

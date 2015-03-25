@@ -42,10 +42,14 @@
  `define TLDataBeats 4
 // the bit size of the Acquire type field
  `define acquireTypeWidth 2
- `define acquireReadShared 0
- `define acquireReadExclusive 1
- `define acquireReadUncached 2
- `define acquireWriteUncached 3
+ `define acquireUncachedRead 0
+ `define acquireUncachedWrite 1
+ `define acquireUncachedAtomic 2
+// the bit size of the Grant type field
+ `define grantTypeWidth 2
+ `define grantUncachedRead 0
+ `define grantUncachedWrite 1
+ `define grantUncachedAtomic 2
 // the bit width of sub-block field
  `define TLSubblockBits 129
 // the width of the address on the memory interface

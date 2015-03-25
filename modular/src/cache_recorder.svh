@@ -18,21 +18,25 @@ endclass // ExtendedCacheBlock
 
 class CacheRecorder;
 
-   local Cache#(ExtendedCacheBlock, cacheBlockAddr_t) scorebard;
+   local Cache#(ExtendedCacheBlock, cacheBlockAddr_t) scoreboard;
+
+   function new;
+      scoreboard = new;
+   endfunction // record
    
-   
-   function void record(CacheBlock cb, bit rw, int cid);
+   task record(CacheBlock cb, bit rw, int cid);
+      ExtendedCacheBlock ecb;
       if(rw) begin // write
-         ExtendedCacheBlock ecb = new();
+         ecb = new();
          ecb.copy(cb);
          ecb.operation = 1;
          ecb.core_id = cid;
          ecb.stamp = $realtime;
-         scoreboard.add(ecb);
+         scoreboard.add(ecb.addr, ecb);
       end else begin // read
          if(scoreboard.exist(cb.addr)) begin // written before
             // check
-            ecb = scoreboard[cb.addr];
+            ecb = scoreboard.get(cb.addr);
             if(!ecb.is_equal(cb)) begin
                $display("%t  Error! Cache line read mismatch:", $time);
                $display({"    The recorded cache line: ", ecb.convert2string()});
@@ -44,7 +48,7 @@ class CacheRecorder;
             ecb.stamp = $realtime;
          end // if (scoreboard.exist(cb.addr))
       end // else: !if(rw)
-   endfunction // record
+   endtask // record
 
 endclass // CacheRecorder
 

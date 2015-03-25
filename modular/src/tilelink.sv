@@ -23,14 +23,11 @@ interface TLinkAcquireInf;
    } payload;
 
    function bit is_write();
-      return a_type == `acquireWriteUncached;
+      return (payload.a_type == `acquireUncachedWrite) || (payload.a_type == `acquireUncachedAtomic);
    endfunction // is_write
 
    function bit is_read();
-      return 
-        (a_type == `acquireReadShared) &&
-        (a_type == `acquireReadExclusive) &&
-        (a_type == `acquireReadUncached);
+      return (payload.a_type == `acquireUncachedRead) || (payload.a_type == `acquireUncachedAtomic);
    endfunction // is_read
    
 endinterface // TLinkAcquireInf
@@ -58,8 +55,9 @@ interface TLinkFinishInf;
    
    TLink_header_t header;
 
-   typedef struct {
+   struct {
       logic [`TLMasterXactIdBits-1:0] manager_xact_id;     // manager transaction identifier
    } payload;
    
 endinterface // TLinkFinishInf
+

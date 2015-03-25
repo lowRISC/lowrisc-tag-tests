@@ -12,8 +12,8 @@ class RandomProcessor extends Processor;
 
    typedef enum {read_miss, write_miss, write_back} OpType;
 
-   protected OpType operation;
-   constraint opRange {Operation dist {read_miss := 60, write_miss := 30, write_back := 10}; }
+   protected rand OpType operation;
+   constraint opRange {operation dist {read_miss := 60, write_miss := 30, write_back := 10}; }
 
    // mem operation period
    protected const int  mem_period = 1000 / `LD_ST_Freq;
@@ -25,7 +25,7 @@ class RandomProcessor extends Processor;
         read_miss, write_miss: begin
            while(1'b1) begin
               m.randomize();
-              if(!L2_h.exist(m)) break;
+              if(!L2_h.exist(m.addr)) break;
            end
         end
         write_back: begin
@@ -37,9 +37,9 @@ class RandomProcessor extends Processor;
    endfunction // cacheGen
    
    // the operation thread
-   task execute;
+   virtual task execute;
       CacheBlock m;
-      CacheBlock m_ran = new;
+      CacheBlock m_rand = new;
       
       while(1'b1) begin
          
@@ -50,10 +50,10 @@ class RandomProcessor extends Processor;
          case(operation)
            read_miss, write_miss: begin
               if(L1.size() == `L1Size) begin // L1 full, write back first
-                 m = cachGen(write_back);
+                 m = cacheGen(write_back);
                  write(m);
-                 L1.remove(m);
-                 L2_h.remove(m);
+                 L1.remove(m.addr);
+                 L2_h.remove(m.addr);
               end
 
               // now there is space in L1 for sure
@@ -64,12 +64,12 @@ class RandomProcessor extends Processor;
                 write(m);
            end
            write_back: begin
-              m = cachGen(write_back);
+              m = cacheGen(write_back);
               m_rand.randomize(); // always write a different daya when write back
               m.copy_data(m_rand);
               write(m);
-              L1.remove(m);
-              L2_h.remove(m);
+              L1.remove(m.addr);
+              L2_h.remove(m.addr);
            end
          endcase
 

@@ -25,7 +25,7 @@ class Memory;
    virtual task execute;
 
       while(1'b1) begin
-         automatic int mdelay = memory_delay + $random%(memory_delay*memory_delay_random_ratio);
+         automatic int mdelay = memory_delay + $random%(int'(memory_delay*memory_delay_random_ratio));
 
          MemReqCMDMessage cmd_msg;
          MemDataMessage data_msg;
@@ -43,15 +43,17 @@ class Memory;
                $display({"    The MemCMDReq: ", cmd_msg.convert2string()});
                $display({"    The MemCMDData: ", data_msg.convert2string()});
             end
-            mem[cmd_msg.addr] = data_msg;
+            mem.add(cmd_msg.addr, data_msg);
          end else begin
 
             #(mdelay)
             
-            if(!mem.exist(cmd_msg.addr))
-              mem[cmd_msg.addr] = new(0);
-
-            resp_msg = new(mem[cmd_msg.addr].data, cmd_msg.tag);
+            if(!mem.exist(cmd_msg.addr)) begin
+               data_msg = new;
+               mem.add(cmd_msg.addr, data_msg);
+            end
+            
+            resp_msg = new(data_msg.data, cmd_msg.tag);
             resp.put(resp_msg);
          end
       end
