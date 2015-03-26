@@ -8,7 +8,7 @@
 // No. of cores
  `define NCore 4
 // the size of L1 cache
- `define L1Size 1024
+ `define L1Size 256
 // the frequency of LD/ST operation in MHz
  `define LD_ST_Freq 2
 // the warming up time in ns

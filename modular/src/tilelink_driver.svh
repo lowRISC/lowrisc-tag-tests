@@ -29,12 +29,16 @@ class AcquireDriver;
          automatic int i = 0;
 
          acq.valid = 1'b0;
-         Acquire_h.get(m);
+         if(!Acquire_h.try_get(m)) begin
+            Acquire_h.get(m);
+            @(posedge clock.clk);
+            #0.1;
+         end
 
          while(i==0 || (m.write && i<`TLDataBeats)) begin
             acq.payload.addr = m.addr;
             acq.payload.client_xact_id = m.core_id;
-            acq.payload.uncached = 1'b0;
+            acq.payload.uncached = 1'b1;
             if(m.write) begin
                acq.payload.a_type = `acquireUncachedWrite;
                acq.payload.data = m.data[`TLDataBits:0];
@@ -43,7 +47,15 @@ class AcquireDriver;
               acq.payload.a_type = `acquireUncachedRead;
 
             acq.valid = 1'b1;
-            if(acq.ready == 1'b1) i++;
+
+            #0.1;
+            
+            while(acq.ready != 1'b1) begin
+               @(posedge clock.clk);
+               #0.1;
+            end
+
+            i++;
             
             @(posedge clock.clk);
             #0.1;

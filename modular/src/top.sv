@@ -46,6 +46,12 @@ module test_top;
       tester.build();
 
       tester.execute();
+   end // initial begin
+
+   initial begin
+      $vcdplusfile("tagcache.vpd");
+      $vcdplusmemon();
+      $vcdpluson();
    end
 
 endmodule // test_top

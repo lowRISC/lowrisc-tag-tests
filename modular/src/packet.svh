@@ -3,14 +3,14 @@
 `ifndef TC_PACKET_H
 `define TC_PACKET_H
 
-typedef bit [`PAddrBits-1:0] cacheBlockAddr_t;
+typedef bit [`TLAddrBits-1:0] cacheBlockAddr_t;
 
 class CacheBlock;
    rand cacheBlockAddr_t addr;
    rand bit [`TLDataBits*`TLDataBeats-1:0] data;
    //rand bit [`CacheBlockBytes*`TagBits/8-1:0] tag;
 
-   constraint dw_align { addr[2:0] == 3'b000; }
+   constraint reduced_memory { addr[`TLAddrBits-1:12] == 0; }
 
    // a deep copy function
    virtual function void copy(CacheBlock rhs);
@@ -81,6 +81,7 @@ class GrantMessage;
       CacheBlock rv = new();
       rv.data = data;
       //rv.tag = tag;
+      return rv;
    endfunction // extract
    
 endclass // GrantMessage
@@ -105,9 +106,9 @@ class MemReqCMDMessage;
 endclass // MemReqCMDMessage
 
 class MemDataMessage;
-   bit [`MIFDataBits-1:0]      data;
+   bit [`MIFDataBits*`MIFDataBeats-1:0]      data;
 
-   function new (bit [`MIFDataBits-1:0] d = 0);
+   function new (bit [`MIFDataBits*`MIFDataBeats-1:0] d = 0);
       data = d;
    endfunction; // new
 
@@ -118,9 +119,9 @@ class MemDataMessage;
 endclass // MemDataMessage
 
 class MemRespMessage extends MemDataMessage;
-   bit [`MIFTagBits-1:0]       tag;
+   bit [`MIFTagBits*`MIFDataBeats-1:0]       tag;
 
-   function new (bit [`MIFDataBits-1:0] d, bit [`MIFTagBits-1:0] t);
+   function new (bit [`MIFDataBits*`MIFDataBeats-1:0] d, bit [`MIFTagBits-1:0] t);
       super.new(d);
       tag = t;
    endfunction // new

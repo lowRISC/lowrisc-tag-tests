@@ -25,14 +25,14 @@ class RandomProcessor extends Processor;
         read_miss, write_miss: begin
            while(1'b1) begin
               m.randomize();
-              if(!L2_h.exist(m.addr)) break;
+              if(!L1.exist(m.addr)) break;
            end
         end
         write_back: begin
            m = L1.get_random();
         end
       endcase // case (op)
-
+      
       return m;
    endfunction // cacheGen
    
@@ -40,6 +40,8 @@ class RandomProcessor extends Processor;
    virtual task execute;
       CacheBlock m;
       CacheBlock m_rand = new;
+
+      $display("Processor %0d begins to execute.", core_id);
       
       while(1'b1) begin
          
@@ -48,25 +50,51 @@ class RandomProcessor extends Processor;
          this.randomize();
          
          case(operation)
-           read_miss, write_miss: begin
+           read_miss: begin
               if(L1.size() == `L1Size) begin // L1 full, write back first
                  m = cacheGen(write_back);
+                 $display("%0t  Processor %0d write_back operation [%0h]%0h", $time, core_id, m.addr, m.data);
                  write(m);
                  L1.remove(m.addr);
                  L2_h.remove(m.addr);
               end
-
+              
               // now there is space in L1 for sure
               m = cacheGen(operation);
-              if(operation == read_miss)
-                read(m);
-              else
-                write(m);
+              L2_h.add(m.addr, m);
+              read(m);
+              $display("%0t  Processor %0d read_miss operation [%0h]%0h", 
+                       $time, core_id, m.addr, m.data);
+           end // case: read_miss
+           write_miss: begin
+              CacheBlock m_copy = new;
+              if(L1.size() == `L1Size) begin // L1 full, write back first
+                 m = cacheGen(write_back);
+                 $display("%0t  Processor %0d write_back operation [%0h]%0h", 
+                          $time, core_id, m.addr, m.data);
+                 write(m);
+                 L1.remove(m.addr);
+                 L2_h.remove(m.addr);
+              end
+              
+              // now there is space in L1 for sure
+              m = cacheGen(operation);
+              m_copy.copy(m);
+              L2_h.add(m.addr, m);
+              read(m);
+              $display("%0t  Processor %0d write_miss(read) operation [%0h]%0h", 
+                          $time, core_id, m.addr, m.data);
+
+              L1.add(m.addr, m_copy);
+              L2_h.add(m.addr, m_copy);
+              $display("%0t  Processor %0d write_miss(write) operation [%0h]%0h", $time, core_id, m.addr, m_copy.data);
+              write(m_copy);
            end
            write_back: begin
               m = cacheGen(write_back);
               m_rand.randomize(); // always write a different daya when write back
               m.copy_data(m_rand);
+              $display("%0t  Processor %0d write_back operation [%0h]%0h", $time, core_id, m.addr, m.data);
               write(m);
               L1.remove(m.addr);
               L2_h.remove(m.addr);

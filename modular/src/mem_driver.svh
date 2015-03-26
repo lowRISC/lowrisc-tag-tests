@@ -36,15 +36,16 @@ class MemReqDriver;
          mem_cmd.ready = 1'b1;
          
          if(mem_cmd.valid) begin
-            mem_cmd.ready = 1'b0;
-
             cmd_m = new(mem_cmd.addr, mem_cmd.tag, mem_cmd.rw);
             MemCmd_h.put(cmd_m);
             rw = mem_cmd.rw;
             dat_m = new(0);
+            @(posedge clock.clk);
+            #0.1;
          end
 
          if(rw) begin
+            mem_cmd.ready = 1'b0;
             mem_data.ready = 1'b1;
             while (i < `MIFDataBeats) begin
                if(mem_data.valid) begin
@@ -56,6 +57,7 @@ class MemReqDriver;
                #0.1;
             end
             mem_data.ready = 1'b0;
+            mem_cmd.ready = 1'b1;
             MemDat_h.put(dat_m);
          end else begin // if (rw)
             @(posedge clock.clk);
@@ -89,16 +91,24 @@ class MemRespDriver;
          MemRespMessage m;
          automatic int i = 0;
          
-         MemResp_h.get(m);
-
-         while(i<`MIFDataBeats) begin
+         mem_resp.valid = 1'b0;
+         
+         if(!MemResp_h.try_get(m)) begin
+            MemResp_h.get(m);
             @(posedge clock.clk);
             #0.1;
+         end
 
+         while(i<`MIFDataBeats) begin
             mem_resp.valid = 1'b1;
             mem_resp.data = m.data;
             mem_resp.tag = m.tag;
             m.data = m.data >> `MIFDataBits;
+
+            @(posedge clock.clk);
+            #0.1;
+
+            i++;
          end
       end // while (1'b1)
    endtask // wait

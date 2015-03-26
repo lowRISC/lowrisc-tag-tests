@@ -20,6 +20,7 @@ class Memory;
       resp = resp_h;
       memory_delay = mdelay;
       memory_delay_random_ratio = mratio;
+      mem = new;
    endfunction // new
 
    virtual task execute;
@@ -39,7 +40,7 @@ class Memory;
             
             // check first
             if(!mem.exist(cmd_msg.addr)) begin
-               $display("%t  Error! Try to write a memory block not being read yet:", $time);
+               $display("%0t  Error! Try to write a memory block not being read yet:", $time);
                $display({"    The MemCMDReq: ", cmd_msg.convert2string()});
                $display({"    The MemCMDData: ", data_msg.convert2string()});
             end
@@ -51,7 +52,8 @@ class Memory;
             if(!mem.exist(cmd_msg.addr)) begin
                data_msg = new;
                mem.add(cmd_msg.addr, data_msg);
-            end
+            end else
+              data_msg = mem.get(cmd_msg.addr);
             
             resp_msg = new(data_msg.data, cmd_msg.tag);
             resp.put(resp_msg);

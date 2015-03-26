@@ -5,9 +5,9 @@
 
 class RandomTester #(parameter int NCore = 2) extends CacheTestEnv #(NCore);
 
-   local RandomProcessor rproc [NCore-1:0];
 
    virtual function void build_processor();
+      automatic RandomProcessor rproc [NCore-1:0];
       foreach(proc[i]) begin
          rproc[i] = new(L2, acq_queue, gnt_queue[i], scoreboard, i);
          proc[i] = rproc[i];

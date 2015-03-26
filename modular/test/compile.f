@@ -1,5 +1,7 @@
+-debug_all
 +incdir+../src
 +warn=noTFIPC
++memcbk
 -sverilog
 -timescale=1ns/100ps
 -top test_top

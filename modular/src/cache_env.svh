@@ -81,8 +81,16 @@ virtual class CacheTestEnv #(int NCore = 2);
       @(negedge clock.reset);
 
       // start all other components
+      foreach(proc[i]) begin
+         fork
+            automatic int j = i;
+            begin
+               proc[j].execute();
+            end
+         join_none
+      end
+
       fork
-         foreach(proc[i]) proc[i].execute();
          mem.execute();
       join_none
       

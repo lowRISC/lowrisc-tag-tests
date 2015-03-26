@@ -20,6 +20,7 @@ module TagCacheWrapper
          .io_uncached_acquire_valid                        ( uc_acq.valid                  ),
          .io_uncached_acquire_bits_header_src              ( uc_acq.header.src             ),
          .io_uncached_acquire_bits_header_dst              ( uc_acq.header.dst             ),
+         .io_uncached_acquire_bits_payload_uncached        ( uc_acq.payload.uncached       ),
          .io_uncached_acquire_bits_payload_addr            ( uc_acq.payload.addr           ),
          .io_uncached_acquire_bits_payload_client_xact_id  ( uc_acq.payload.client_xact_id ),
          .io_uncached_acquire_bits_payload_data            ( uc_acq.payload.data           ),
