@@ -36,33 +36,47 @@ class MemReqDriver;
          mem_cmd.ready = 1'b1;
          
          if(mem_cmd.valid) begin
+            mem_cmd.ready = 1'b0;
             cmd_m = new(mem_cmd.addr, mem_cmd.tag, mem_cmd.rw);
-            MemCmd_h.put(cmd_m);
+
+            //$display({"%0t  generate a memory cmd: ", cmd_m.convert2string()}, $time);
+            if(!MemCmd_h.try_put(cmd_m)) begin
+               MemCmd_h.put(cmd_m);
+               @(posedge clock.clk);
+               #0.1;
+            end
+
+            mem_cmd.ready = 1'b1;
             rw = mem_cmd.rw;
             dat_m = new(0);
             @(posedge clock.clk);
             #0.1;
-         end
-
-         if(rw) begin
-            mem_cmd.ready = 1'b0;
-            mem_data.ready = 1'b1;
-            while (i < `MIFDataBeats) begin
-               if(mem_data.valid) begin
-                  dat_m.data[i*`MIFDataBits +: `MIFDataBits] = mem_data.data;
-                  i++;
+            
+            if(rw) begin
+               mem_cmd.ready = 1'b0;
+               mem_data.ready = 1'b1;
+               while (i < `MIFDataBeats) begin
+                  if(mem_data.valid) begin
+                     dat_m.data[i*`MIFDataBits +: `MIFDataBits] = mem_data.data;
+                     i++;
+                  end
+                  
+                  @(posedge clock.clk);
+                  #0.1;
                end
-
-               @(posedge clock.clk);
-               #0.1;
-            end
-            mem_data.ready = 1'b0;
-            mem_cmd.ready = 1'b1;
-            MemDat_h.put(dat_m);
-         end else begin // if (rw)
+               mem_data.ready = 1'b0;
+               mem_cmd.ready = 1'b1;
+               //$display("MemIF write: [%0h]%0h", cmd_m.addr, dat_m.data);
+               if(!MemDat_h.try_put(dat_m)) begin
+                  $display("cannot put a data message, should not happen.");
+               end
+            end else begin // if (rw)
+               //$display("MemIF read:  [%0h]", cmd_m.addr);
+            end // else: !if(rw)
+         end else begin // if (mem_cmd.valid)
             @(posedge clock.clk);
             #0.1;
-         end // else: !if(rw)
+         end
       end // while (1'b1)
    endtask // wait
 

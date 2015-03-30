@@ -33,6 +33,8 @@ class Memory;
          MemRespMessage resp_msg;
 
          cmd.get(cmd_msg);
+         //$display({"%0t  Memory cmd: ", cmd_msg.convert2string()}, $time);
+         
          if(cmd_msg.rw) begin
             data.get(data_msg);
 

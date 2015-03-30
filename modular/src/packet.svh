@@ -10,7 +10,7 @@ class CacheBlock;
    rand bit [`TLDataBits*`TLDataBeats-1:0] data;
    //rand bit [`CacheBlockBytes*`TagBits/8-1:0] tag;
 
-   constraint reduced_memory { addr[`TLAddrBits-1:12] == 0; }
+   constraint reduced_memory { addr[`TLAddrBits-1:13] == 0; }
 
    // a deep copy function
    virtual function void copy(CacheBlock rhs);

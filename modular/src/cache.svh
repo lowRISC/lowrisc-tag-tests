@@ -25,13 +25,14 @@ class Cache #(type T = CacheBlock, type TA = cacheBlockAddr_t);
 
    // remove a block from the cache
    function void remove (TA cba);
-      assert(exist(cba));
+      assert(exist(cba)) else $fatal("failed");
+
       cache.delete(cba);
    endfunction // remove
 
    // get the content of a block
    function T get(TA cba);
-      assert(exist(cba));
+      assert(exist(cba)) else $fatal("failed");
       return cache[cba];
    endfunction // get
 
@@ -40,10 +41,11 @@ class Cache #(type T = CacheBlock, type TA = cacheBlockAddr_t);
    
    // get a random block from the cache
    function T get_random();
-      assert(cache.size());
+      assert(cache.size()) else $fatal("failed");
       this.randomize();
       if(!cache.next(random_block_addr))
         cache.prev(random_block_addr);
+      assert(exist(random_block_addr));
       return cache[random_block_addr];
    endfunction // get_random
 
