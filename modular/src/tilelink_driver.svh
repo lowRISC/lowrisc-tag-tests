@@ -41,7 +41,7 @@ class AcquireDriver;
             acq.payload.uncached = 1'b1;
             if(m.write) begin
                acq.payload.a_type = `acquireUncachedWrite;
-               acq.payload.data = m.data[`TLDataBits:0];
+               acq.payload.data = m.data[`TLDataBits-1:0];
                m.data = m.data >> `TLDataBits;
             end else
               acq.payload.a_type = `acquireUncachedRead;

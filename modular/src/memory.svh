@@ -23,22 +23,19 @@ class Memory;
       mem = new;
    endfunction // new
 
-   virtual task execute;
-
+   virtual task working_thread;
       while(1'b1) begin
          automatic int mdelay = memory_delay + $random%(int'(memory_delay*memory_delay_random_ratio));
-
-         MemReqCMDMessage cmd_msg;
-         MemDataMessage data_msg;
-         MemRespMessage resp_msg;
-
+      
+         automatic MemReqCMDMessage cmd_msg;
+         automatic MemDataMessage data_msg;
+         automatic MemRespMessage resp_msg;
+         
          cmd.get(cmd_msg);
          //$display({"%0t  Memory cmd: ", cmd_msg.convert2string()}, $time);
          
          if(cmd_msg.rw) begin
             data.get(data_msg);
-
-            #(mdelay)
             
             // check first
             if(!mem.exist(cmd_msg.addr)) begin
@@ -47,9 +44,9 @@ class Memory;
                $display({"    The MemCMDData: ", data_msg.convert2string()});
             end
             mem.add(cmd_msg.addr, data_msg);
+            #(mdelay);
+            
          end else begin
-
-            #(mdelay)
             
             if(!mem.exist(cmd_msg.addr)) begin
                data_msg = new;
@@ -58,10 +55,25 @@ class Memory;
               data_msg = mem.get(cmd_msg.addr);
             
             resp_msg = new(data_msg.data, cmd_msg.tag);
+
+            #(mdelay);
+            
             resp.put(resp_msg);
-         end
+         end // else: !if(cmd_msg.rw)
+      end // while (1'b1)
+   endtask
+      
+
+   virtual task execute;
+      automatic int i;
+
+      for(i=0; i<`MemThreads; i++) begin
+         fork
+            working_thread();
+         join_none
       end
-   endtask // while
+      
+   endtask
    
 endclass // Memory
 
